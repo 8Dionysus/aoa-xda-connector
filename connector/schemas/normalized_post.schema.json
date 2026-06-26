@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/aoa-xda/normalized_post.schema.json",
+  "title": "AoA XDA Normalized Post",
+  "type": "object",
+  "required": ["schema", "post_id", "thread_id", "source_url", "captured_at", "text", "entities"],
+  "properties": {
+    "schema": { "const": "aoa_xda_normalized_post_v1" },
+    "post_id": { "type": "string" },
+    "thread_id": { "type": "string" },
+    "source_url": { "type": "string" },
+    "author_label": { "type": ["string", "null"] },
+    "posted_at": { "type": ["string", "null"] },
+    "captured_at": { "type": "string" },
+    "text": { "type": "string" },
+    "entities": { "type": "array" }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,59 @@
+{
+  "schema": "aoa_xda_answer_eval_suite_v1",
+  "suite_id": "starter-claim-answer-packets",
+  "profile_id": "pixel-8-pro-husky",
+  "proof_owner_repo": "aoa-evals",
+  "network_touched": false,
+  "cases": [
+    {
+      "case_id": "warning-supported-vendor-boot",
+      "query": "Pixel 8 Pro husky warning vendor_boot bootloop Android 15",
+      "fixture_run": "starter-fixture",
+      "expect": {
+        "answer_status": "answered",
+        "warning_status": "warning_supported",
+        "conflict_status": "conflict_detected",
+        "freshness_status_any": ["conflicting_evidence", "possibly_superseded"],
+        "requires_claim_ids": true,
+        "requires_post_ids": true,
+        "requires_source_urls": true,
+        "network_touched": false,
+        "read_only": true
+      }
+    },
+    {
+      "case_id": "stale-method-demotion",
+      "query": "Pixel 8 Pro old Magisk init_boot no longer boots after June OTA CP2A",
+      "fixture_run": "starter-fixture",
+      "expect": {
+        "answer_status": "answered",
+        "conflict_status_any": ["conflict_detected", "possibly_superseded"],
+        "freshness_status_any": ["conflicting_evidence", "possibly_superseded"],
+        "min_superseding_claims": 1,
+        "answer_text_contains": ["current", "init_boot.img"]
+      }
+    },
+    {
+      "case_id": "applicability-current-method",
+      "query": "Pixel 8 Pro husky CP2A.260605.012 current Magisk Canary init_boot",
+      "fixture_run": "starter-fixture",
+      "expect": {
+        "answer_status": "answered",
+        "applicability_status": "applicability_supported",
+        "context_contains": ["Pixel 8 Pro", "husky", "CP2A.260605.012"],
+        "condition_contains": ["bootloader_unlocked", "matching_build"]
+      }
+    },
+    {
+      "case_id": "insufficient-evidence-unknown-device",
+      "query": "Galaxy S99 unicorn modem unlock XDA answer",
+      "fixture_run": "starter-fixture",
+      "expect": {
+        "answer_status": "insufficient_evidence",
+        "conflict_status": "insufficient_evidence",
+        "freshness_status": "insufficient_evidence",
+        "warning_status": "insufficient_evidence"
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+schema: aoa_xda_seed_plan_v1
+profile_id: pixel-8-pro-husky
+network_default: disabled
+seeds:
+  - id: fixture-pixel-8-pro-husky-root-thread
+    kind: fixture_thread
+    source_url: https://xdaforums.com/t/pixel-8-pro-husky-root-recovery-proof.4633839/
+    fixture: connector/fixtures/html/xda_pixel_8_pro_husky_root_thread.html
+    max_pages: 1
+    purpose: starter no-network proof for root, warning, supersession, and applicability claims

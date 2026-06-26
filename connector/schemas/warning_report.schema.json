@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/aoa-connector/warning_report.schema.json",
+  "title": "AoA Connector Warning Report",
+  "type": "object",
+  "required": ["schema", "status", "warning_claim_ids"],
+  "properties": {
+    "schema": { "const": "aoa_connector_warning_report_v1" },
+    "status": { "enum": ["warning_supported", "no_warning_claim_in_evidence", "insufficient_evidence"] },
+    "warning_claim_ids": { "type": "array", "items": { "type": "string" } },
+    "risk_labels": { "type": "array", "items": { "type": "string" } }
+  },
+  "additionalProperties": true
+}

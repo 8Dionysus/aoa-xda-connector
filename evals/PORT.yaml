@@ -1,0 +1,16 @@
+schema_version: local_eval_port_v1
+owner_repo: aoa-xda-connector
+proof_owner_repo: aoa-evals
+default_intake_schema: eval_need_v1
+status: active
+local_role: local fixture-driven connector behavior suites for XDA parser, claim graph, and answer packet contract checks
+central_boundary: This local eval port has no verdict authority, no scoring authority, no regression authority, and no proof doctrine authority; those authorities route to aoa-evals owner review.
+authority_boundary: local connector suites only; no verdict, scoring, regression, or proof doctrine authority
+local_suites:
+  - evals/suites/starter_claim_conflict_relations.json
+  - evals/suites/starter_claim_answer_packets.json
+validator:
+  command: python /srv/AbyssOS/aoa-evals/scripts/validate_local_eval_port.py --target-root . --json
+notes:
+  - Starter suites are fixture-driven and no-network.
+  - Central proof promotion requires aoa-evals owner review.

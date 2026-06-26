@@ -1,0 +1,17 @@
+schema: aoa_connector_artifact_classes_v1
+git_allowed:
+  - docs
+  - source_code
+  - schemas
+  - small_fixtures
+  - eval_suites
+  - install_routes
+git_forbidden:
+  - raw_captures
+  - large_normalized_corpora
+  - indexes
+  - vectors
+  - graphs
+  - sqlite_databases
+  - caches
+  - full_exports

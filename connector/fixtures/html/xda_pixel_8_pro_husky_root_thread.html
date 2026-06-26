@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>[Pixel 8 Pro / husky] Root and recovery notes - XDA Forums</title>
+  </head>
+  <body>
+    <h1>[Pixel 8 Pro / husky] Root and recovery notes</h1>
+
+    <article class="message message--post" id="post-90000001" data-content="post-90000001">
+      <header class="message-attribution">
+        <a class="username">xda_member_a</a>
+        <time datetime="2024-02-10T12:00:00+00:00">Feb 10, 2024</time>
+      </header>
+      <div class="message-body js-selectToQuote">
+        <div class="bbWrapper">
+          Pixel 8 Pro husky on Android 14 build AP1A.240205.002 can be rooted by
+          patching init_boot.img with Magisk, then flashing the patched image
+          from the matching factory image. Bootloader must be unlocked first.
+          <div class="bbCodeBlock bbCodeBlock--screenLimited">
+            <div class="bbCodeBlock-content">
+              <pre><code>fastboot flash init_boot_a patched_init_boot.img</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="message message--post" id="post-90000002" data-content="post-90000002">
+      <header class="message-attribution">
+        <a class="username">xda_member_b</a>
+        <time datetime="2024-04-18T08:20:00+00:00">Apr 18, 2024</time>
+      </header>
+      <div class="message-body js-selectToQuote">
+        <div class="bbWrapper">
+          Warning for Pixel 8 Pro husky: do not flash vendor_boot.img or
+          init_boot.img from Android 14 on Android 15 beta. Mismatched images
+          caused bootloop and data loss for several users. Use the same build
+          package and keep a rollback path.
+        </div>
+      </div>
+    </article>
+
+    <article class="message message--post" id="post-90000003" data-content="post-90000003">
+      <header class="message-attribution">
+        <a class="username">xda_member_c</a>
+        <time datetime="2026-06-16T19:45:00+00:00">Jun 16, 2026</time>
+      </header>
+      <div class="message-body js-selectToQuote">
+        <div class="bbWrapper">
+          After the June OTA CP2A.260605.012 on Android 16, my old patched
+          init_boot.img no longer boots on husky. The older AP1A method is stale
+          for this build. Re-patch init_boot.img from the current factory image
+          with Magisk Canary.
+        </div>
+      </div>
+    </article>
+
+    <article class="message message--post" id="post-90000004" data-content="post-90000004">
+      <header class="message-attribution">
+        <a class="username">xda_member_d</a>
+        <time datetime="2026-06-18T10:30:00+00:00">Jun 18, 2026</time>
+      </header>
+      <div class="message-body js-selectToQuote">
+        <div class="bbWrapper">
+          Current method for Pixel 8 Pro husky on CP2A.260605.012: patch the
+          matching init_boot.img with Magisk Canary and flash it with fastboot.
+          Do not reuse old patched images. This supersedes the older Android 14
+          instructions for the current OTA.
+          <a href="https://developers.google.com/android/images">factory image source</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="message message--post" id="post-90000005" data-content="post-90000005">
+      <header class="message-attribution">
+        <a class="username">xda_member_e</a>
+        <time datetime="2026-06-19T09:00:00+00:00">Jun 19, 2026</time>
+      </header>
+      <div class="message-body js-selectToQuote">
+        <div class="bbWrapper">
+          <blockquote class="bbCodeBlock bbCodeBlock--quote">Someone said to
+          flash vendor_boot.img from another build.</blockquote>
+          For recovery testing on husky, only flash recovery.img or
+          vendor_boot.img that matches your firmware. OrangeFox is not confirmed
+          for this build; TWRP test images may boot but require manual review.
+        </div>
+      </div>
+      <aside class="message-signature">signature text should not become evidence</aside>
+    </article>
+  </body>
+</html>

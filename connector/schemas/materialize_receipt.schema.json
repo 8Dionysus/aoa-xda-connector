@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/aoa-xda/materialize_receipt.schema.json",
+  "title": "AoA XDA Materialize Receipt",
+  "type": "object",
+  "required": ["schema", "run_id", "profile_id", "network_touched", "read_only"],
+  "properties": {
+    "schema": { "const": "aoa_xda_materialize_receipt_v1" },
+    "run_id": { "type": "string" },
+    "profile_id": { "type": "string" },
+    "network_touched": { "const": false },
+    "read_only": { "const": true }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/aoa-xda/index_manifest.schema.json",
+  "title": "AoA XDA Index Manifest",
+  "type": "object",
+  "required": ["schema", "run_id", "index_path", "network_touched"],
+  "properties": {
+    "schema": { "const": "aoa_xda_index_manifest_v1" },
+    "run_id": { "type": "string" },
+    "index_path": { "type": "string" },
+    "network_touched": { "const": false }
+  },
+  "additionalProperties": true
+}

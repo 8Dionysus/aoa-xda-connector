@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/aoa-connector/claim_relation.schema.json",
+  "title": "AoA Connector Claim Relation",
+  "type": "object",
+  "required": [
+    "schema",
+    "edge_id",
+    "kind",
+    "from_node",
+    "to_node",
+    "source_refs",
+    "confidence",
+    "extraction_basis",
+    "relation_reason",
+    "freshness_basis",
+    "manual_review_required"
+  ],
+  "properties": {
+    "schema": { "const": "aoa_connector_claim_relation_v1" },
+    "edge_id": { "type": "string", "minLength": 1 },
+    "kind": {
+      "enum": [
+        "claim_applies_to_context",
+        "method_uses_tool",
+        "method_targets_object",
+        "method_requires_condition",
+        "warning_targets_action",
+        "warning_targets_object",
+        "claim_contextualizes_claim",
+        "claim_supersedes_claim",
+        "claim_contradicts_claim",
+        "claim_deprecated_for_context",
+        "source_supports_claim",
+        "source_warns_about_claim",
+        "source_updates_claim",
+        "claim_confirms_claim",
+        "claim_refines_claim",
+        "claim_scope_limited_by",
+        "claim_unknown_for_context",
+        "claim_requires_manual_review"
+      ]
+    },
+    "from_node": { "type": "string" },
+    "to_node": { "type": "string" },
+    "source_refs": { "type": "array", "items": { "type": "string" } },
+    "source_post_ids": { "type": "array", "items": { "type": "string" } },
+    "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+    "extraction_basis": { "type": "string" },
+    "relation_reason": { "type": "string" },
+    "freshness_basis": { "type": "string" },
+    "manual_review_required": { "type": "boolean" },
+    "posted_at": { "type": ["string", "null"] },
+    "captured_at": { "type": ["string", "null"] }
+  },
+  "additionalProperties": true
+}

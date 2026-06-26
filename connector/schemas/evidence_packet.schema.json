@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/aoa-xda/evidence_packet.schema.json",
+  "title": "AoA XDA Evidence Packet",
+  "type": "object",
+  "required": ["schema", "packet_id", "query", "query_report", "results", "policy"],
+  "properties": {
+    "schema": { "const": "aoa_xda_evidence_packet_v1" },
+    "packet_id": { "type": "string" },
+    "query": { "type": "string" },
+    "query_report": { "type": "object" },
+    "results": { "type": "array" },
+    "policy": { "type": "object" }
+  },
+  "additionalProperties": true
+}

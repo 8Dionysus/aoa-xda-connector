@@ -1,0 +1,9 @@
+schema: aoa_connector_manifest_v1
+connector_id: aoa-xda-connector
+source_family: xda
+runtime_contract: docs/RUNTIME_CONTRACT.md
+source_policy: connector/SOURCE_POLICY.md
+storage_policy: connector/STORAGE_POLICY.md
+starter_profile: connector/profiles/pixel-8-pro-husky.yaml
+network_default: disabled
+read_only_default: true

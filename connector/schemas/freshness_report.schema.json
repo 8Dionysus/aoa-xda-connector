@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/aoa-connector/freshness_report.schema.json",
+  "title": "AoA Connector Freshness Report",
+  "type": "object",
+  "required": ["schema", "status", "basis"],
+  "properties": {
+    "schema": { "const": "aoa_connector_freshness_report_v1" },
+    "status": { "enum": ["fresh_answer", "possibly_superseded", "conflicting_evidence", "context_limited", "insufficient_evidence"] },
+    "basis": { "type": "string" }
+  },
+  "additionalProperties": true
+}

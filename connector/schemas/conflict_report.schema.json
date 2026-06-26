@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/aoa-connector/conflict_report.schema.json",
+  "title": "AoA Connector Conflict Report",
+  "type": "object",
+  "required": ["schema", "status", "primary_claim_id", "conflicting_claim_ids", "superseding_claim_ids"],
+  "properties": {
+    "schema": { "const": "aoa_connector_conflict_report_v1" },
+    "status": { "enum": ["clear", "conflict_detected", "possibly_superseded", "contextualized", "insufficient_evidence"] },
+    "primary_claim_id": { "type": ["string", "null"] },
+    "conflicting_claim_ids": { "type": "array", "items": { "type": "string" } },
+    "superseding_claim_ids": { "type": "array", "items": { "type": "string" } },
+    "contextual_claim_ids": { "type": "array", "items": { "type": "string" } }
+  },
+  "additionalProperties": true
+}

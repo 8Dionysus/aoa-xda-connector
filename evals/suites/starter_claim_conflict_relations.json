@@ -1,0 +1,46 @@
+{
+  "schema": "aoa_xda_claim_graph_eval_suite_v1",
+  "suite_id": "starter-claim-conflict-relations",
+  "profile_id": "pixel-8-pro-husky",
+  "proof_owner_repo": "aoa-evals",
+  "network_touched": false,
+  "cases": [
+    {
+      "case_id": "pixel-8-pro-husky-claim-graph-contract",
+      "fixture_run": "starter-fixture",
+      "expect": {
+        "min_claim_count": 5,
+        "min_warning_claim_count": 1,
+        "node_kinds": [
+          "claim",
+          "method",
+          "tool",
+          "target",
+          "condition",
+          "applicability_context",
+          "warning"
+        ],
+        "relation_kinds": [
+          "source_supports_claim",
+          "source_warns_about_claim",
+          "source_updates_claim",
+          "method_uses_tool",
+          "method_targets_object",
+          "method_requires_condition",
+          "warning_targets_object",
+          "warning_targets_action",
+          "claim_contextualizes_claim",
+          "claim_supersedes_claim",
+          "claim_contradicts_claim",
+          "claim_deprecated_for_context"
+        ],
+        "claim_text_contains": [
+          "patch init_boot.img",
+          "do not flash vendor_boot.img",
+          "no longer boots",
+          "supersedes"
+        ]
+      }
+    }
+  ]
+}

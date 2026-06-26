@@ -1,0 +1,19 @@
+schema: aoa_connector_route_policy_v1
+source_family: xda
+allowed:
+  - pattern: "https://xdaforums.com/t/*"
+    reason: public thread pages
+  - pattern: "https://xdaforums.com/f/*"
+    reason: public forum pages for bounded seed discovery
+forbidden:
+  - pattern: "*/login*"
+  - pattern: "*/account*"
+  - pattern: "*/conversations*"
+  - pattern: "*/attachments*"
+  - pattern: "*/posts/*/reply*"
+  - pattern: "*/search*"
+  - pattern: "*internal-search*"
+  - pattern: "*/api/*"
+network_default: disabled
+read_only_default: true
+download_default: disabled

@@ -1,0 +1,20 @@
+schema: aoa_xda_profile_v1
+profile_id: pixel-8-pro-husky
+display_name: Pixel 8 Pro / husky starter proof
+device_family: android
+device_model: Pixel 8 Pro
+codename: husky
+network_default: disabled
+fixture_first: true
+seed_file: connector/seeds/pixel_8_pro_husky_threads.yaml
+starter_fixture: connector/fixtures/html/xda_pixel_8_pro_husky_root_thread.html
+focus:
+  - root_methods
+  - init_boot_patching
+  - recovery_vendor_boot_context
+  - magisk
+  - firmware_build_applicability
+  - bootloader_unlock
+  - bootloop_data_loss_warnings
+  - stale_method_demotion
+  - current_method_correction

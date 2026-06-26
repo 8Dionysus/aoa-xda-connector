@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/aoa-xda/graph_edge.schema.json",
+  "title": "AoA XDA Graph Edge",
+  "type": "object",
+  "required": ["schema", "edge_id", "kind", "from_node", "to_node", "source_refs"],
+  "properties": {
+    "schema": { "enum": ["aoa_xda_graph_edge_v1", "aoa_connector_claim_relation_v1"] },
+    "edge_id": { "type": "string" },
+    "kind": { "type": "string" },
+    "from_node": { "type": "string" },
+    "to_node": { "type": "string" },
+    "source_refs": { "type": "array", "items": { "type": "string" } }
+  },
+  "additionalProperties": true
+}

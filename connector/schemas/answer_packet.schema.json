@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/aoa-connector/answer_packet.schema.json",
+  "title": "AoA Connector Answer Packet",
+  "type": "object",
+  "required": [
+    "schema",
+    "answer_id",
+    "query",
+    "created_at",
+    "answer_report",
+    "answers",
+    "evidence_chain",
+    "conflict_report",
+    "freshness_report",
+    "applicability_report",
+    "warning_report",
+    "agent_answer",
+    "policy",
+    "network_touched",
+    "read_only"
+  ],
+  "properties": {
+    "schema": { "const": "aoa_connector_answer_packet_v1" },
+    "answer_id": { "type": "string" },
+    "query": { "type": "string" },
+    "answer_report": { "type": "object" },
+    "answers": { "type": "array" },
+    "evidence_chain": { "type": "array" },
+    "conflict_report": { "type": "object" },
+    "freshness_report": { "type": "object" },
+    "applicability_report": { "type": "object" },
+    "warning_report": { "type": "object" },
+    "agent_answer": { "type": "object" },
+    "policy": { "type": "object" },
+    "network_touched": { "const": false },
+    "read_only": { "const": true }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/aoa-connector/claim.schema.json",
+  "title": "AoA Connector Claim",
+  "type": "object",
+  "required": [
+    "schema",
+    "claim_id",
+    "claim_kind",
+    "action",
+    "source_post",
+    "evidence_span",
+    "freshness_context",
+    "confidence",
+    "confidence_basis"
+  ],
+  "properties": {
+    "schema": { "const": "aoa_connector_claim_v1" },
+    "claim_id": { "type": "string", "minLength": 1 },
+    "claim_kind": { "enum": ["method", "warning", "status", "context", "risk"] },
+    "method_id": { "type": ["string", "null"] },
+    "method_kind": { "type": ["string", "null"] },
+    "action": { "type": "string" },
+    "target_labels": { "type": "array", "items": { "type": "string" } },
+    "tool_labels": { "type": "array", "items": { "type": "string" } },
+    "condition_labels": { "type": "array", "items": { "type": "string" } },
+    "applicability_context": { "type": "array", "items": { "type": "string" } },
+    "risk_labels": { "type": "array", "items": { "type": "string" } },
+    "warning_labels": { "type": "array", "items": { "type": "string" } },
+    "source_post": { "type": "object" },
+    "evidence_span": { "type": "object" },
+    "freshness_context": { "type": "object" },
+    "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+    "confidence_basis": { "type": "object" },
+    "manual_review_required": { "type": "boolean" }
+  },
+  "additionalProperties": true
+}
