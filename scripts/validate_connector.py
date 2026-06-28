@@ -117,6 +117,7 @@ REQUIRED_GITIGNORE = [
 
 FORBIDDEN_HEAVY_ROOTS = {"data", "cache", "artifacts", "raw", "indexes", "vectors", "graphs", "exports"}
 IGNORED_LOCAL_CACHE_DIR_NAMES = {"__pycache__", ".pytest_cache", ".mypy_cache", ".ruff_cache", ".venv"}
+ALLOWED_KAG_RECORD_DIRS = {("kag", "indexes")}
 
 
 def main() -> int:
@@ -158,6 +159,8 @@ def main() -> int:
         if any(part in IGNORED_LOCAL_CACHE_DIR_NAMES for part in rel_parts):
             continue
         if rel_parts and rel_parts[0] == ".connector-state":
+            continue
+        if tuple(rel_parts[:2]) in ALLOWED_KAG_RECORD_DIRS:
             continue
         if path.is_dir() and path.name in FORBIDDEN_HEAVY_ROOTS:
             errors.append(f"forbidden artifact directory exists inside repository: {path.relative_to(repo_root)}")

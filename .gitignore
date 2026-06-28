@@ -19,6 +19,8 @@ indexes/
 vectors/
 graphs/
 exports/full/
+!kag/indexes/
+!kag/indexes/*.json
 *.sqlite
 *.sqlite3
 *.parquet
