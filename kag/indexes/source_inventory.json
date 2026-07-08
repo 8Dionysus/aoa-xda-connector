@@ -17,6 +17,13 @@
       "source_class": "connector_source",
       "role": "owner_route",
       "authority": "authored_source"
+    },
+    {
+      "repo": "aoa-xda-connector",
+      "path": "kag/manifest.json",
+      "source_class": "connector_source",
+      "role": "supporting",
+      "authority": "authored_source"
     }
   ],
   "source_owner": "aoa-xda-connector",
