@@ -61,7 +61,7 @@
   },
   "index_identity": {
     "artifact_kind": "source_surface_index",
-    "content_digest": "25e964b58ab81114e2a06f776290c871d9dfac74105f473bf93de2a214f32fae",
+    "content_digest": "875725131caf22a3a6f4c5e9c30fdbeca5b97b5c1f46f7f5addacb293a66db08",
     "local_id": "index:repo-local:source-surfaces",
     "schema_ref": "aoa-kag:schemas/repo-local-kag-index.schema.json"
   },
@@ -634,13 +634,13 @@
         "state": "current"
       },
       "identity": {
-        "content_hash": "f72e7fc6d016be4e849d4ce44614b663cbc813ff1143b80b96e5d1a417a63fec",
+        "content_hash": "2205d984f178b6cf34050e232d662c2c927db8bcd66299725643ed98039f1122",
         "git_ref": "git-index-source-tree",
         "id": "file:.github/workflows/validate.yml:a5c0f08bc4",
         "mime": "application/yaml",
         "path": ".github/workflows/validate.yml",
         "repo": "aoa-xda-connector",
-        "size_bytes": 386
+        "size_bytes": 544
       },
       "mechanics_role": "none",
       "observed_form": "file",
@@ -673,7 +673,7 @@
       },
       "signs": {
         "attestation_ref": "",
-        "digest": "f72e7fc6d016be4e849d4ce44614b663cbc813ff1143b80b96e5d1a417a63fec",
+        "digest": "2205d984f178b6cf34050e232d662c2c927db8bcd66299725643ed98039f1122",
         "signature_ref": "",
         "verification_state": "digest-only"
       },
@@ -6755,13 +6755,13 @@
         "state": "current"
       },
       "identity": {
-        "content_hash": "0e2d59ed27bed40aa3071e1ad62cff7a1ccd93be7ffe1d8bdc0ba09b459f8eec",
+        "content_hash": "7431cfd9ba5f6b3edbca29cc46e818085ae472a94a54aee736ce40e8db289280",
         "git_ref": "git-index-source-tree",
         "id": "file:scripts/validate_connector.py:de39a47221",
         "mime": "text/x-python",
         "path": "scripts/validate_connector.py",
         "repo": "aoa-xda-connector",
-        "size_bytes": 10309
+        "size_bytes": 10374
       },
       "mechanics_role": "none",
       "observed_form": "command",
@@ -6794,7 +6794,7 @@
       },
       "signs": {
         "attestation_ref": "",
-        "digest": "0e2d59ed27bed40aa3071e1ad62cff7a1ccd93be7ffe1d8bdc0ba09b459f8eec",
+        "digest": "7431cfd9ba5f6b3edbca29cc46e818085ae472a94a54aee736ce40e8db289280",
         "signature_ref": "",
         "verification_state": "digest-only"
       },
@@ -8181,13 +8181,13 @@
         "state": "current"
       },
       "identity": {
-        "content_hash": "0297eeb7f488ae7f6b8dc87a3ea8f37b29a8c4084083e1681cc00dc3a32bd912",
+        "content_hash": "d34f7e7045eb3eebc87833f287188d05acdd533e1ec2b0adc10b811b617e155f",
         "git_ref": "git-index-source-tree",
         "id": "file:tests/contract/test_validator.py:d2f4ffcf08",
         "mime": "text/x-python",
         "path": "tests/contract/test_validator.py",
         "repo": "aoa-xda-connector",
-        "size_bytes": 325
+        "size_bytes": 1419
       },
       "mechanics_role": "none",
       "observed_form": "command",
@@ -8220,7 +8220,7 @@
       },
       "signs": {
         "attestation_ref": "",
-        "digest": "0297eeb7f488ae7f6b8dc87a3ea8f37b29a8c4084083e1681cc00dc3a32bd912",
+        "digest": "d34f7e7045eb3eebc87833f287188d05acdd533e1ec2b0adc10b811b617e155f",
         "signature_ref": "",
         "verification_state": "digest-only"
       },
