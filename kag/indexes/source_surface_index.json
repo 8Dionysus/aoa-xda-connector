@@ -61,7 +61,7 @@
   },
   "index_identity": {
     "artifact_kind": "source_surface_index",
-    "content_digest": "8880518cddf42785d30c2a6cbc2a4109fb11d8988f9b527f93a9b4080b4f9d04",
+    "content_digest": "7706cfc77a69499dd74c5307760f680f7ce759151b2e9ff61d3268402c7beb33",
     "local_id": "index:repo-local:source-surfaces",
     "schema_ref": "aoa-kag:schemas/repo-local-kag-index.schema.json"
   },
@@ -634,7 +634,7 @@
         "state": "current"
       },
       "identity": {
-        "content_hash": "6f516af9786b5ecd618a671b61226fcde2c974e325be9532bcfd23528cca4a1e",
+        "content_hash": "0408125f0204477ae37f9e27523102e9849ad4222ce10543d03477f7a6b8fdb0",
         "git_ref": "git-index-source-tree",
         "id": "file:.github/workflows/validate.yml:a5c0f08bc4",
         "mime": "application/yaml",
@@ -673,7 +673,7 @@
       },
       "signs": {
         "attestation_ref": "",
-        "digest": "6f516af9786b5ecd618a671b61226fcde2c974e325be9532bcfd23528cca4a1e",
+        "digest": "0408125f0204477ae37f9e27523102e9849ad4222ce10543d03477f7a6b8fdb0",
         "signature_ref": "",
         "verification_state": "digest-only"
       },
@@ -1827,7 +1827,7 @@
         "confidence": "high",
         "primary_kind": "artifact"
       },
-      "code_role": "none",
+      "code_role": "source_module",
       "command_role": "none",
       "consumer_route": {
         "route_kind": "resource",
@@ -5799,13 +5799,13 @@
         "state": "current"
       },
       "identity": {
-        "content_hash": "f2647ab21e3ed74582dfad5d4a930af97bfdb9bb1a61a41a6a4b5fa2583db92d",
+        "content_hash": "ee74a24cf877e86ee7abdb1dc5f765e09269e870581831c3a143b5588f4a3768",
         "git_ref": "git-index-source-tree",
         "id": "file:kag/agents.md:f80d68b85b",
         "mime": "text/markdown",
         "path": "kag/AGENTS.md",
         "repo": "aoa-xda-connector",
-        "size_bytes": 1292
+        "size_bytes": 1308
       },
       "mechanics_role": "none",
       "observed_form": "file",
@@ -5888,7 +5888,7 @@
       },
       "signs": {
         "attestation_ref": "",
-        "digest": "f2647ab21e3ed74582dfad5d4a930af97bfdb9bb1a61a41a6a4b5fa2583db92d",
+        "digest": "ee74a24cf877e86ee7abdb1dc5f765e09269e870581831c3a143b5588f4a3768",
         "signature_ref": "",
         "verification_state": "digest-only"
       },
@@ -5936,13 +5936,13 @@
         "state": "current"
       },
       "identity": {
-        "content_hash": "35fcb9eb0cb36c2db6c8e89fa71c7eefeab37fd7a749cf35e1cf9e764ed32845",
+        "content_hash": "e32e4d2b3677b1f8ad80c6b5de64cd1eba492211f506f71268824519acee5c47",
         "git_ref": "git-index-source-tree",
         "id": "file:kag/readme.md:213631cc86",
         "mime": "text/markdown",
         "path": "kag/README.md",
         "repo": "aoa-xda-connector",
-        "size_bytes": 1113
+        "size_bytes": 1124
       },
       "mechanics_role": "none",
       "observed_form": "file",
@@ -5997,7 +5997,7 @@
       },
       "signs": {
         "attestation_ref": "",
-        "digest": "35fcb9eb0cb36c2db6c8e89fa71c7eefeab37fd7a749cf35e1cf9e764ed32845",
+        "digest": "e32e4d2b3677b1f8ad80c6b5de64cd1eba492211f506f71268824519acee5c47",
         "signature_ref": "",
         "verification_state": "digest-only"
       },

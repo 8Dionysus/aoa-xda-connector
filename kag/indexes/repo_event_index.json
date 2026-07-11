@@ -1,0 +1,133 @@
+{
+  "entries": [
+    {
+      "event_kind": "workflow_run",
+      "event_role": "producer",
+      "heading_ref": null,
+      "id": "event:repo:33883fd51ef81b8ff0bd",
+      "observation_state": "declared",
+      "path": ".github/workflows/validate.yml",
+      "source_record_id": "file:.github/workflows/validate.yml:a5c0f08bc4"
+    },
+    {
+      "event_kind": "release_lane",
+      "event_role": "declaration",
+      "heading_ref": {
+        "anchor": "unreleased",
+        "level": 2,
+        "line": 3,
+        "ref": "CHANGELOG.md#unreleased",
+        "title": "Unreleased"
+      },
+      "id": "event:repo:08c18f9663229c44b240",
+      "observation_state": "declared",
+      "path": "CHANGELOG.md",
+      "source_record_id": "file:changelog.md:06572a96a5"
+    },
+    {
+      "event_kind": "decision_record",
+      "event_role": "declaration",
+      "heading_ref": null,
+      "id": "event:repo:fa502447e2b1f00c1eae",
+      "observation_state": "declared",
+      "path": "docs/decisions/AOA-XDA-D-0001-second-source-connector-proof.md",
+      "source_record_id": "file:docs/decisions/aoa-xda-d-0001-second-source-connector-proof.md:b56c503804"
+    },
+    {
+      "event_kind": "validation_receipt",
+      "event_role": "receipt",
+      "heading_ref": null,
+      "id": "event:repo:bd26dd60f6c0b6565155",
+      "observation_state": "observed",
+      "path": "kag/receipts/validation_receipt.json",
+      "source_record_id": "file:kag/receipts/validation_receipt.json:8e616be0cd"
+    },
+    {
+      "event_kind": "validation_run",
+      "event_role": "producer",
+      "heading_ref": null,
+      "id": "event:repo:b4464a03d73ba67eed2d",
+      "observation_state": "declared",
+      "path": "scripts/validate_connector.py",
+      "source_record_id": "file:scripts/validate_connector.py:de39a47221"
+    },
+    {
+      "event_kind": "test_run",
+      "event_role": "producer",
+      "heading_ref": null,
+      "id": "event:repo:5b95464076baf9def7b2",
+      "observation_state": "declared",
+      "path": "tests/contract/test_validator.py",
+      "source_record_id": "file:tests/contract/test_validator.py:d2f4ffcf08"
+    },
+    {
+      "event_kind": "test_run",
+      "event_role": "producer",
+      "heading_ref": null,
+      "id": "event:repo:ae8c28803426232f2766",
+      "observation_state": "declared",
+      "path": "tests/integration/test_cli_eval.py",
+      "source_record_id": "file:tests/integration/test_cli_eval.py:72e7f3ce47"
+    },
+    {
+      "event_kind": "test_run",
+      "event_role": "producer",
+      "heading_ref": null,
+      "id": "event:repo:0b8056ddfc09ba577886",
+      "observation_state": "declared",
+      "path": "tests/unit/test_graph_answer.py",
+      "source_record_id": "file:tests/unit/test_graph_answer.py:7bd472ece7"
+    },
+    {
+      "event_kind": "test_run",
+      "event_role": "producer",
+      "heading_ref": null,
+      "id": "event:repo:0b0988b1089b8375d611",
+      "observation_state": "declared",
+      "path": "tests/unit/test_parse_normalize_policy.py",
+      "source_record_id": "file:tests/unit/test_parse_normalize_policy.py:4f69da0d97"
+    }
+  ],
+  "index_identity": {
+    "artifact_kind": "repository_event_index",
+    "content_digest": "a3b77cda6fc53f080f9926e311e86648c87d6646456c4d8a61d8edc913201d49",
+    "index_kind": "event",
+    "local_id": "index:repo-local:events",
+    "schema_ref": "aoa-kag:schemas/repo-local-kag-repository-index.schema.json"
+  },
+  "registry_output": {
+    "consumer": "aoa-kag-mcp",
+    "resource_shape": "repo-local-event-index",
+    "stable_fields": [
+      "id",
+      "event_kind",
+      "event_role",
+      "source_record_id",
+      "path",
+      "heading_ref"
+    ]
+  },
+  "repo": {
+    "git_ref": "git-index-source-tree",
+    "name": "aoa-xda-connector",
+    "owner_type": "connector",
+    "root": "."
+  },
+  "schema_version": "aoa-repo-local-kag-repository-index-v1",
+  "source_index": {
+    "content_digest": "7706cfc77a69499dd74c5307760f680f7ce759151b2e9ff61d3268402c7beb33",
+    "local_id": "index:repo-local:source-surfaces",
+    "path": "kag/indexes/source_surface_index.json"
+  },
+  "summary": {
+    "entry_count": 9,
+    "kind_counts": {
+      "decision_record": 1,
+      "release_lane": 1,
+      "test_run": 4,
+      "validation_receipt": 1,
+      "validation_run": 1,
+      "workflow_run": 1
+    }
+  }
+}

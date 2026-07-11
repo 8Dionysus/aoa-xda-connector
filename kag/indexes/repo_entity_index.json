@@ -1,0 +1,1280 @@
+{
+  "entries": [
+    {
+      "coordinates": {
+        "artifact_kind": "document",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "agents",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "agent_route",
+      "id": "entity:file:.connector-state/agents.md:c48b09d1eb",
+      "label": ".connector-state/AGENTS.md",
+      "source_record_id": "file:.connector-state/agents.md:c48b09d1eb"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "document",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "readme",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "document",
+      "id": "entity:file:.connector-state/readme.md:377f66e180",
+      "label": ".connector-state/README.md",
+      "source_record_id": "file:.connector-state/readme.md:377f66e180"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "directory_marker",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "artifact",
+      "id": "entity:file:.connector-state/artifacts/.gitkeep:9accf75395",
+      "label": ".connector-state/artifacts/.gitkeep",
+      "source_record_id": "file:.connector-state/artifacts/.gitkeep:9accf75395"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "directory_marker",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "artifact",
+      "id": "entity:file:.connector-state/cache/.gitkeep:ffb60a7310",
+      "label": ".connector-state/cache/.gitkeep",
+      "source_record_id": "file:.connector-state/cache/.gitkeep:ffb60a7310"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "directory_marker",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "artifact",
+      "id": "entity:file:.connector-state/data/.gitkeep:c10ea2dd50",
+      "label": ".connector-state/data/.gitkeep",
+      "source_record_id": "file:.connector-state/data/.gitkeep:c10ea2dd50"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "config",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "artifact",
+      "id": "entity:file:.env.example:a3046da0d1",
+      "label": ".env.example",
+      "source_record_id": "file:.env.example:a3046da0d1"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "config",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "artifact",
+      "id": "entity:file:.github/workflows/validate.yml:a5c0f08bc4",
+      "label": ".github/workflows/validate.yml",
+      "source_record_id": "file:.github/workflows/validate.yml:a5c0f08bc4"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "owner_metadata",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "owner_surface",
+      "id": "entity:file:.gitignore:bc37d034ba",
+      "label": ".gitignore",
+      "source_record_id": "file:.gitignore:bc37d034ba"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "document",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "agents",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "agent_route",
+      "id": "entity:file:agents.md:a54ff182c7",
+      "label": "AGENTS.md",
+      "source_record_id": "file:agents.md:a54ff182c7"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "document",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "boundary",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "document",
+      "id": "entity:file:boundaries.md:22819d489e",
+      "label": "BOUNDARIES.md",
+      "source_record_id": "file:boundaries.md:22819d489e"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "document",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "changelog",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "document",
+      "id": "entity:file:changelog.md:06572a96a5",
+      "label": "CHANGELOG.md",
+      "source_record_id": "file:changelog.md:06572a96a5"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "document",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "unknown_document",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "document",
+      "id": "entity:file:charter.md:91d16dd057",
+      "label": "CHARTER.md",
+      "source_record_id": "file:charter.md:91d16dd057"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "document",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "readme",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "document",
+      "id": "entity:file:readme.md:b335630551",
+      "label": "README.md",
+      "source_record_id": "file:readme.md:b335630551"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "document",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "roadmap",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "document",
+      "id": "entity:file:roadmap.md:683343bdf9",
+      "label": "ROADMAP.md",
+      "source_record_id": "file:roadmap.md:683343bdf9"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "document",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "readme",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "document",
+      "id": "entity:file:connector/readme.md:5aa00cda8e",
+      "label": "connector/README.md",
+      "source_record_id": "file:connector/readme.md:5aa00cda8e"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "document",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "source_policy",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "document",
+      "id": "entity:file:connector/source_policy.md:1ec0689ca4",
+      "label": "connector/SOURCE_POLICY.md",
+      "source_record_id": "file:connector/source_policy.md:1ec0689ca4"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "document",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "unknown_document",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "document",
+      "id": "entity:file:connector/storage_policy.md:aef066cc09",
+      "label": "connector/STORAGE_POLICY.md",
+      "source_record_id": "file:connector/storage_policy.md:aef066cc09"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "fixture",
+        "code_role": "source_module",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "code",
+      "id": "entity:file:connector/fixtures/html/xda_pixel_8_pro_husky_root_thread.html:ceeea91bd3",
+      "label": "connector/fixtures/html/xda_pixel_8_pro_husky_root_thread.html",
+      "source_record_id": "file:connector/fixtures/html/xda_pixel_8_pro_husky_root_thread.html:ceeea91bd3"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "manifest",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "manifest",
+      "id": "entity:file:connector/manifests/artifact_classes.yaml:702a5cec90",
+      "label": "connector/manifests/artifact_classes.yaml",
+      "source_record_id": "file:connector/manifests/artifact_classes.yaml:702a5cec90"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "manifest",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "manifest",
+      "id": "entity:file:connector/manifests/connector_manifest.yaml:747276e9b1",
+      "label": "connector/manifests/connector_manifest.yaml",
+      "source_record_id": "file:connector/manifests/connector_manifest.yaml:747276e9b1"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "manifest",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "manifest",
+      "id": "entity:file:connector/manifests/route_allowlist.yaml:1ba98f35b6",
+      "label": "connector/manifests/route_allowlist.yaml",
+      "source_record_id": "file:connector/manifests/route_allowlist.yaml:1ba98f35b6"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "config",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "artifact",
+      "id": "entity:file:connector/profiles/pixel-8-pro-husky.yaml:e8d335f15e",
+      "label": "connector/profiles/pixel-8-pro-husky.yaml",
+      "source_record_id": "file:connector/profiles/pixel-8-pro-husky.yaml:e8d335f15e"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "schema",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "contract",
+      "id": "entity:file:connector/schemas/answer_packet.schema.json:3886462d56",
+      "label": "connector/schemas/answer_packet.schema.json",
+      "source_record_id": "file:connector/schemas/answer_packet.schema.json:3886462d56"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "schema",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "contract",
+      "id": "entity:file:connector/schemas/applicability_report.schema.json:bfec791fa3",
+      "label": "connector/schemas/applicability_report.schema.json",
+      "source_record_id": "file:connector/schemas/applicability_report.schema.json:bfec791fa3"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "schema",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "contract",
+      "id": "entity:file:connector/schemas/claim.schema.json:32e75444c5",
+      "label": "connector/schemas/claim.schema.json",
+      "source_record_id": "file:connector/schemas/claim.schema.json:32e75444c5"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "schema",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "contract",
+      "id": "entity:file:connector/schemas/claim_relation.schema.json:383c535c0b",
+      "label": "connector/schemas/claim_relation.schema.json",
+      "source_record_id": "file:connector/schemas/claim_relation.schema.json:383c535c0b"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "schema",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "contract",
+      "id": "entity:file:connector/schemas/conflict_report.schema.json:5a9c8bd05f",
+      "label": "connector/schemas/conflict_report.schema.json",
+      "source_record_id": "file:connector/schemas/conflict_report.schema.json:5a9c8bd05f"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "schema",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "contract",
+      "id": "entity:file:connector/schemas/crawl_receipt.schema.json:b0b5287569",
+      "label": "connector/schemas/crawl_receipt.schema.json",
+      "source_record_id": "file:connector/schemas/crawl_receipt.schema.json:b0b5287569"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "schema",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "contract",
+      "id": "entity:file:connector/schemas/evidence_packet.schema.json:22b1fd4258",
+      "label": "connector/schemas/evidence_packet.schema.json",
+      "source_record_id": "file:connector/schemas/evidence_packet.schema.json:22b1fd4258"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "schema",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "contract",
+      "id": "entity:file:connector/schemas/freshness_report.schema.json:116037cdf5",
+      "label": "connector/schemas/freshness_report.schema.json",
+      "source_record_id": "file:connector/schemas/freshness_report.schema.json:116037cdf5"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "schema",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "contract",
+      "id": "entity:file:connector/schemas/graph_edge.schema.json:7cdc761c31",
+      "label": "connector/schemas/graph_edge.schema.json",
+      "source_record_id": "file:connector/schemas/graph_edge.schema.json:7cdc761c31"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "schema",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "contract",
+      "id": "entity:file:connector/schemas/graph_node.schema.json:1582c817b6",
+      "label": "connector/schemas/graph_node.schema.json",
+      "source_record_id": "file:connector/schemas/graph_node.schema.json:1582c817b6"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "schema",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "contract",
+      "id": "entity:file:connector/schemas/index_manifest.schema.json:0bee62c710",
+      "label": "connector/schemas/index_manifest.schema.json",
+      "source_record_id": "file:connector/schemas/index_manifest.schema.json:0bee62c710"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "schema",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "contract",
+      "id": "entity:file:connector/schemas/materialize_receipt.schema.json:5aeacf8a1f",
+      "label": "connector/schemas/materialize_receipt.schema.json",
+      "source_record_id": "file:connector/schemas/materialize_receipt.schema.json:5aeacf8a1f"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "schema",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "contract",
+      "id": "entity:file:connector/schemas/normalized_post.schema.json:2b0ac6226c",
+      "label": "connector/schemas/normalized_post.schema.json",
+      "source_record_id": "file:connector/schemas/normalized_post.schema.json:2b0ac6226c"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "schema",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "contract",
+      "id": "entity:file:connector/schemas/normalized_topic.schema.json:9d8d8799e9",
+      "label": "connector/schemas/normalized_topic.schema.json",
+      "source_record_id": "file:connector/schemas/normalized_topic.schema.json:9d8d8799e9"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "schema",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "contract",
+      "id": "entity:file:connector/schemas/warning_report.schema.json:931d4eadc5",
+      "label": "connector/schemas/warning_report.schema.json",
+      "source_record_id": "file:connector/schemas/warning_report.schema.json:931d4eadc5"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "config",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "artifact",
+      "id": "entity:file:connector/seeds/pixel_8_pro_husky_threads.yaml:404ad9f281",
+      "label": "connector/seeds/pixel_8_pro_husky_threads.yaml",
+      "source_record_id": "file:connector/seeds/pixel_8_pro_husky_threads.yaml:404ad9f281"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "document",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "unknown_document",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "document",
+      "id": "entity:file:docs/agent_install_route.md:38c86ecaa7",
+      "label": "docs/AGENT_INSTALL_ROUTE.md",
+      "source_record_id": "file:docs/agent_install_route.md:38c86ecaa7"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "document",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "unknown_document",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "document",
+      "id": "entity:file:docs/architecture.md:ff21b6b9a3",
+      "label": "docs/ARCHITECTURE.md",
+      "source_record_id": "file:docs/architecture.md:ff21b6b9a3"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "document",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "unknown_document",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "document",
+      "id": "entity:file:docs/connector_family_claim_contract.md:2fbbbc3cbc",
+      "label": "docs/CONNECTOR_FAMILY_CLAIM_CONTRACT.md",
+      "source_record_id": "file:docs/connector_family_claim_contract.md:2fbbbc3cbc"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "document",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "unknown_document",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "document",
+      "id": "entity:file:docs/graph_model.md:72ed1bbd50",
+      "label": "docs/GRAPH_MODEL.md",
+      "source_record_id": "file:docs/graph_model.md:72ed1bbd50"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "document",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "unknown_document",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "document",
+      "id": "entity:file:docs/install.md:93adeedb62",
+      "label": "docs/INSTALL.md",
+      "source_record_id": "file:docs/install.md:93adeedb62"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "document",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "unknown_document",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "document",
+      "id": "entity:file:docs/mcp_rollout.md:7592ebe12e",
+      "label": "docs/MCP_ROLLOUT.md",
+      "source_record_id": "file:docs/mcp_rollout.md:7592ebe12e"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "document",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "unknown_document",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "document",
+      "id": "entity:file:docs/query_model.md:dc059c6e17",
+      "label": "docs/QUERY_MODEL.md",
+      "source_record_id": "file:docs/query_model.md:dc059c6e17"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "document",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "unknown_document",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "document",
+      "id": "entity:file:docs/runtime_contract.md:fa011f8c69",
+      "label": "docs/RUNTIME_CONTRACT.md",
+      "source_record_id": "file:docs/runtime_contract.md:fa011f8c69"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "document",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "unknown_document",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "document",
+      "id": "entity:file:docs/starter_proof.md:a06d166b7c",
+      "label": "docs/STARTER_PROOF.md",
+      "source_record_id": "file:docs/starter_proof.md:a06d166b7c"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "document",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "decision",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "decision",
+      "id": "entity:file:docs/decisions/aoa-xda-d-0001-second-source-connector-proof.md:b56c503804",
+      "label": "docs/decisions/AOA-XDA-D-0001-second-source-connector-proof.md",
+      "source_record_id": "file:docs/decisions/aoa-xda-d-0001-second-source-connector-proof.md:b56c503804"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "document",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "readme",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "document",
+      "id": "entity:file:docs/decisions/readme.md:e5ec0e7030",
+      "label": "docs/decisions/README.md",
+      "source_record_id": "file:docs/decisions/readme.md:e5ec0e7030"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "document",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "agents",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "agent_route",
+      "id": "entity:file:evals/agents.md:97b1e9d3cd",
+      "label": "evals/AGENTS.md",
+      "source_record_id": "file:evals/agents.md:97b1e9d3cd"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "config",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "artifact",
+      "id": "entity:file:evals/port.yaml:b027c5aa6b",
+      "label": "evals/PORT.yaml",
+      "source_record_id": "file:evals/port.yaml:b027c5aa6b"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "document",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "readme",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "document",
+      "id": "entity:file:evals/readme.md:a1a9eeb43d",
+      "label": "evals/README.md",
+      "source_record_id": "file:evals/readme.md:a1a9eeb43d"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "document",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "readme",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "document",
+      "id": "entity:file:evals/intake/readme.md:d27b56ff43",
+      "label": "evals/intake/README.md",
+      "source_record_id": "file:evals/intake/readme.md:d27b56ff43"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "document",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "readme",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "document",
+      "id": "entity:file:evals/reports/readme.md:ac5e016ca2",
+      "label": "evals/reports/README.md",
+      "source_record_id": "file:evals/reports/readme.md:ac5e016ca2"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "document",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "readme",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "document",
+      "id": "entity:file:evals/suites/readme.md:8611332c6f",
+      "label": "evals/suites/README.md",
+      "source_record_id": "file:evals/suites/readme.md:8611332c6f"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "document",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "unknown_document",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "document",
+      "id": "entity:file:evals/suites/connector-family-claim-runtime.suite.md:b972eb11b6",
+      "label": "evals/suites/connector-family-claim-runtime.suite.md",
+      "source_record_id": "file:evals/suites/connector-family-claim-runtime.suite.md:b972eb11b6"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "config",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "artifact",
+      "id": "entity:file:evals/suites/starter_claim_answer_packets.json:0406674f03",
+      "label": "evals/suites/starter_claim_answer_packets.json",
+      "source_record_id": "file:evals/suites/starter_claim_answer_packets.json:0406674f03"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "config",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "artifact",
+      "id": "entity:file:evals/suites/starter_claim_conflict_relations.json:3880ed3d49",
+      "label": "evals/suites/starter_claim_conflict_relations.json",
+      "source_record_id": "file:evals/suites/starter_claim_conflict_relations.json:3880ed3d49"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "document",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "agents",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "agent_route",
+      "id": "entity:file:kag/agents.md:f80d68b85b",
+      "label": "kag/AGENTS.md",
+      "source_record_id": "file:kag/agents.md:f80d68b85b"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "document",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "readme",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "document",
+      "id": "entity:file:kag/readme.md:213631cc86",
+      "label": "kag/README.md",
+      "source_record_id": "file:kag/readme.md:213631cc86"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "config",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "generated_readmodel"
+      },
+      "entity_kind": "readmodel",
+      "id": "entity:file:kag/edges/source_routes_to_storage_boundary.json:8c12cb4c11",
+      "label": "kag/edges/source_routes_to_storage_boundary.json",
+      "source_record_id": "file:kag/edges/source_routes_to_storage_boundary.json:8c12cb4c11"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "index",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "generated_readmodel"
+      },
+      "entity_kind": "readmodel",
+      "id": "entity:file:kag/indexes/source_inventory.json:1416e51205",
+      "label": "kag/indexes/source_inventory.json",
+      "source_record_id": "file:kag/indexes/source_inventory.json:1416e51205"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "config",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "artifact",
+      "id": "entity:file:kag/manifest.json:0d25d90d08",
+      "label": "kag/manifest.json",
+      "source_record_id": "file:kag/manifest.json:0d25d90d08"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "config",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "artifact",
+      "id": "entity:file:kag/nodes/source_home.json:a87a1f114c",
+      "label": "kag/nodes/source_home.json",
+      "source_record_id": "file:kag/nodes/source_home.json:a87a1f114c"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "config",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "artifact",
+      "id": "entity:file:kag/nodes/storage_boundary.json:45dfb2e4b0",
+      "label": "kag/nodes/storage_boundary.json",
+      "source_record_id": "file:kag/nodes/storage_boundary.json:45dfb2e4b0"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "projection",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "generated_readmodel"
+      },
+      "entity_kind": "readmodel",
+      "id": "entity:file:kag/projections/source_return.json:1a2a306538",
+      "label": "kag/projections/source_return.json",
+      "source_record_id": "file:kag/projections/source_return.json:1a2a306538"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "receipt",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "receipt"
+      },
+      "entity_kind": "artifact",
+      "id": "entity:file:kag/receipts/validation_receipt.json:8e616be0cd",
+      "label": "kag/receipts/validation_receipt.json",
+      "source_record_id": "file:kag/receipts/validation_receipt.json:8e616be0cd"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "manifest",
+        "code_role": "none",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "manifest",
+      "id": "entity:file:pyproject.toml:50c86b7ed8",
+      "label": "pyproject.toml",
+      "source_record_id": "file:pyproject.toml:50c86b7ed8"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "validator",
+        "code_role": "validator",
+        "command_role": "validator",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "command",
+      "id": "entity:file:scripts/validate_connector.py:de39a47221",
+      "label": "scripts/validate_connector.py",
+      "source_record_id": "file:scripts/validate_connector.py:de39a47221"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "source_code",
+        "code_role": "source_module",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "code",
+      "id": "entity:file:src/aoa_xda_connector/__init__.py:f2babbac5c",
+      "label": "src/aoa_xda_connector/__init__.py",
+      "source_record_id": "file:src/aoa_xda_connector/__init__.py:f2babbac5c"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "source_code",
+        "code_role": "source_module",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "code",
+      "id": "entity:file:src/aoa_xda_connector/answer/__init__.py:5a67d4b217",
+      "label": "src/aoa_xda_connector/answer/__init__.py",
+      "source_record_id": "file:src/aoa_xda_connector/answer/__init__.py:5a67d4b217"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "source_code",
+        "code_role": "source_module",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "code",
+      "id": "entity:file:src/aoa_xda_connector/claims/__init__.py:14e72d1c99",
+      "label": "src/aoa_xda_connector/claims/__init__.py",
+      "source_record_id": "file:src/aoa_xda_connector/claims/__init__.py:14e72d1c99"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "source_code",
+        "code_role": "source_module",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "code",
+      "id": "entity:file:src/aoa_xda_connector/cli.py:713e0605d1",
+      "label": "src/aoa_xda_connector/cli.py",
+      "source_record_id": "file:src/aoa_xda_connector/cli.py:713e0605d1"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "source_code",
+        "code_role": "source_module",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "code",
+      "id": "entity:file:src/aoa_xda_connector/config.py:3429119f7b",
+      "label": "src/aoa_xda_connector/config.py",
+      "source_record_id": "file:src/aoa_xda_connector/config.py:3429119f7b"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "source_code",
+        "code_role": "source_module",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "code",
+      "id": "entity:file:src/aoa_xda_connector/evaluation/__init__.py:78efcf5d49",
+      "label": "src/aoa_xda_connector/evaluation/__init__.py",
+      "source_record_id": "file:src/aoa_xda_connector/evaluation/__init__.py:78efcf5d49"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "source_code",
+        "code_role": "source_module",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "code",
+      "id": "entity:file:src/aoa_xda_connector/graph/__init__.py:97ec2f4c2d",
+      "label": "src/aoa_xda_connector/graph/__init__.py",
+      "source_record_id": "file:src/aoa_xda_connector/graph/__init__.py:97ec2f4c2d"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "source_code",
+        "code_role": "source_module",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "code",
+      "id": "entity:file:src/aoa_xda_connector/index/__init__.py:3f132fa50a",
+      "label": "src/aoa_xda_connector/index/__init__.py",
+      "source_record_id": "file:src/aoa_xda_connector/index/__init__.py:3f132fa50a"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "source_code",
+        "code_role": "source_module",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "code",
+      "id": "entity:file:src/aoa_xda_connector/normalize/__init__.py:ec606a94f0",
+      "label": "src/aoa_xda_connector/normalize/__init__.py",
+      "source_record_id": "file:src/aoa_xda_connector/normalize/__init__.py:ec606a94f0"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "source_code",
+        "code_role": "source_module",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "code",
+      "id": "entity:file:src/aoa_xda_connector/parse/__init__.py:031f410572",
+      "label": "src/aoa_xda_connector/parse/__init__.py",
+      "source_record_id": "file:src/aoa_xda_connector/parse/__init__.py:031f410572"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "source_code",
+        "code_role": "source_module",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "code",
+      "id": "entity:file:src/aoa_xda_connector/policy/__init__.py:968b3b3e15",
+      "label": "src/aoa_xda_connector/policy/__init__.py",
+      "source_record_id": "file:src/aoa_xda_connector/policy/__init__.py:968b3b3e15"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "source_code",
+        "code_role": "source_module",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "code",
+      "id": "entity:file:src/aoa_xda_connector/policy/rules.py:9c465bdab5",
+      "label": "src/aoa_xda_connector/policy/rules.py",
+      "source_record_id": "file:src/aoa_xda_connector/policy/rules.py:9c465bdab5"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "source_code",
+        "code_role": "source_module",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "code",
+      "id": "entity:file:src/aoa_xda_connector/query/__init__.py:e5a13e38b3",
+      "label": "src/aoa_xda_connector/query/__init__.py",
+      "source_record_id": "file:src/aoa_xda_connector/query/__init__.py:e5a13e38b3"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "source_code",
+        "code_role": "source_module",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "code",
+      "id": "entity:file:src/aoa_xda_connector/sources/__init__.py:0b6690cd88",
+      "label": "src/aoa_xda_connector/sources/__init__.py",
+      "source_record_id": "file:src/aoa_xda_connector/sources/__init__.py:0b6690cd88"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "source_code",
+        "code_role": "source_module",
+        "command_role": "none",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "code",
+      "id": "entity:file:src/aoa_xda_connector/storage/__init__.py:95d7213aba",
+      "label": "src/aoa_xda_connector/storage/__init__.py",
+      "source_record_id": "file:src/aoa_xda_connector/storage/__init__.py:95d7213aba"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "test",
+        "code_role": "test",
+        "command_role": "test",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "command",
+      "id": "entity:file:tests/contract/test_validator.py:d2f4ffcf08",
+      "label": "tests/contract/test_validator.py",
+      "source_record_id": "file:tests/contract/test_validator.py:d2f4ffcf08"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "test",
+        "code_role": "test",
+        "command_role": "test",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "command",
+      "id": "entity:file:tests/integration/test_cli_eval.py:72e7f3ce47",
+      "label": "tests/integration/test_cli_eval.py",
+      "source_record_id": "file:tests/integration/test_cli_eval.py:72e7f3ce47"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "test",
+        "code_role": "test",
+        "command_role": "test",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "command",
+      "id": "entity:file:tests/unit/test_graph_answer.py:7bd472ece7",
+      "label": "tests/unit/test_graph_answer.py",
+      "source_record_id": "file:tests/unit/test_graph_answer.py:7bd472ece7"
+    },
+    {
+      "coordinates": {
+        "artifact_kind": "test",
+        "code_role": "test",
+        "command_role": "test",
+        "document_role": "none",
+        "mechanics_role": "none",
+        "surface_state": "authored_source"
+      },
+      "entity_kind": "command",
+      "id": "entity:file:tests/unit/test_parse_normalize_policy.py:4f69da0d97",
+      "label": "tests/unit/test_parse_normalize_policy.py",
+      "source_record_id": "file:tests/unit/test_parse_normalize_policy.py:4f69da0d97"
+    }
+  ],
+  "index_identity": {
+    "artifact_kind": "repository_entity_index",
+    "content_digest": "8d417c48724bfed4df8c2ac898872bc2d3177c5a3a5d0a52f78682ba7e0c5cca",
+    "index_kind": "entity",
+    "local_id": "index:repo-local:entities",
+    "schema_ref": "aoa-kag:schemas/repo-local-kag-repository-index.schema.json"
+  },
+  "registry_output": {
+    "consumer": "aoa-kag-mcp",
+    "resource_shape": "repo-local-entity-index",
+    "stable_fields": [
+      "id",
+      "entity_kind",
+      "source_record_id",
+      "coordinates"
+    ]
+  },
+  "repo": {
+    "git_ref": "git-index-source-tree",
+    "name": "aoa-xda-connector",
+    "owner_type": "connector",
+    "root": "."
+  },
+  "schema_version": "aoa-repo-local-kag-repository-index-v1",
+  "source_index": {
+    "content_digest": "7706cfc77a69499dd74c5307760f680f7ce759151b2e9ff61d3268402c7beb33",
+    "local_id": "index:repo-local:source-surfaces",
+    "path": "kag/indexes/source_surface_index.json"
+  },
+  "summary": {
+    "entry_count": 88,
+    "kind_counts": {
+      "agent_route": 4,
+      "artifact": 14,
+      "code": 16,
+      "command": 5,
+      "contract": 15,
+      "decision": 1,
+      "document": 25,
+      "manifest": 4,
+      "owner_surface": 1,
+      "readmodel": 3
+    }
+  }
+}

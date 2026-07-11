@@ -25,8 +25,8 @@ Read the root `AGENTS.md`, `README.md`, `BOUNDARIES.md`,
 Keep XDA connector meaning with this repository's source surfaces. Keep shared
 KAG schema, registry, composition, and provider validation with `aoa-kag`.
 Keep runtime serving with `abyss-stack`. Keep raw captures, generated corpora,
-indexes, graph artifacts, vectors, caches, and full exports outside Git in the
-storage roots named by the connector.
+runtime content indexes, graph artifacts, vectors, caches, and full exports
+outside Git in the storage roots named by the connector.
 
 ## Validation
 
