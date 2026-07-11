@@ -20,7 +20,7 @@ source-linked records.
 | --- | --- |
 | node | source surface and storage boundary |
 | edge | source surface routes to the storage and runtime boundary |
-| index | source surface inventory over local records |
+| index | repository source, entity, artifact, and event indexes |
 | projection | MCP-readable source-return packet |
 | receipt | validation receipt for the current owner route |
 
