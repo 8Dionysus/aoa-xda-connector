@@ -6,7 +6,7 @@
     {"anchor_id":"aoa:aoa-xda-connector:anchor:821d8dfd26f20c99c9cdf968","artifact_kind":"directory_marker","content_hash":"01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b","id":"aoa:aoa-xda-connector:artifact:ffb60a731046fa6ceb4e8ba0","lineage_path":".connector-state/cache/.gitkeep","mime":"text/plain","path":".connector-state/cache/.gitkeep","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:fe07c381cec36b49a25107a2"},
     {"anchor_id":"aoa:aoa-xda-connector:anchor:898b800847b845c387e5955e","artifact_kind":"directory_marker","content_hash":"01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b","id":"aoa:aoa-xda-connector:artifact:c10ea2dd5030b4f0098fa68d","lineage_path":".connector-state/data/.gitkeep","mime":"text/plain","path":".connector-state/data/.gitkeep","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:8aad2af5e05a17ed88ca6e4e"},
     {"anchor_id":"aoa:aoa-xda-connector:anchor:382cd3b5d18393ad4a0d1a4c","artifact_kind":"config","content_hash":"db196d0a74f15110060e2cfaffedf925d69308a4299ace2b04b6db2cdfb609b4","id":"aoa:aoa-xda-connector:artifact:a3046da0d15a27e89f2afe63","lineage_path":".env.example","mime":"text/plain","path":".env.example","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:bb1aa71ab435949f5a1ce2cc"},
-    {"anchor_id":"aoa:aoa-xda-connector:anchor:3a511a1dd28a094a2303cb46","artifact_kind":"config","content_hash":"cb7fae999803d1e022e6a681e3148be1fd6b5bdc869195fe54ebda2c7cc4868a","id":"aoa:aoa-xda-connector:artifact:a5c0f08bc43f53a0451cad4a","lineage_path":".github/workflows/validate.yml","mime":"application/yaml","path":".github/workflows/validate.yml","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:7563ddecb22ac72712d9ed78"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:3a511a1dd28a094a2303cb46","artifact_kind":"config","content_hash":"348f1f51340d5d0d1d82695f207a9d2604f4f8b802853329197f00370afc261f","id":"aoa:aoa-xda-connector:artifact:a5c0f08bc43f53a0451cad4a","lineage_path":".github/workflows/validate.yml","mime":"application/yaml","path":".github/workflows/validate.yml","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:fdf2e3c6f3e415336b740caf"},
     {"anchor_id":"aoa:aoa-xda-connector:anchor:b31a1c52988d475779e90c3c","artifact_kind":"owner_metadata","content_hash":"f94a4b1676b45782c4e42323ad3c351e5b6ff391108d54d1815dcba9ebca69f4","id":"aoa:aoa-xda-connector:artifact:bc37d034bad564583790a46f","lineage_path":".gitignore","mime":"text/plain","path":".gitignore","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:2a9c2189dc84b7060369228f"},
     {"anchor_id":"aoa:aoa-xda-connector:anchor:7c0a21e9867c9f7db3b408bc","artifact_kind":"document","content_hash":"eaf2645ac607a3c95d9634502636d54460b1e53086546a24a6c4da4fab1a7fb5","id":"aoa:aoa-xda-connector:artifact:a54ff182c7e8acf56acfd6e4","lineage_path":"AGENTS.md","mime":"text/markdown","path":"AGENTS.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:6a7325b102ee0334fa6a950d"},
     {"anchor_id":"aoa:aoa-xda-connector:anchor:43ba6639b2e98f8499cb63de","artifact_kind":"document","content_hash":"2189c935f01ca27d2745fddfdbbbfda7ad63433e71a6f9aaaac543ef8abe53a3","id":"aoa:aoa-xda-connector:artifact:22819d489ee6bbea874f5a03","lineage_path":"BOUNDARIES.md","mime":"text/markdown","path":"BOUNDARIES.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:f053a3e2299ea5fd3eff12b9"},
@@ -91,7 +91,7 @@
   ],
   "index_identity": {
     "artifact_kind": "repository_artifact_index",
-    "content_digest": "9be035fa7d92c9be954e785ef6c690be072180801522a0220101acb961d104f4",
+    "content_digest": "1191df3a6d98e57ae83fd7e6cf6d35d47929c1d667786bd5267cf4deb99325b7",
     "index_kind": "artifact",
     "local_id": "index:repo-local:artifacts",
     "schema_ref": "aoa-kag:schemas/repo-local-kag-repository-index.schema.json"
@@ -177,7 +177,7 @@
   },
   "schema_version": "aoa-repo-local-kag-repository-index-v2",
   "source_index": {
-    "content_digest": "9bfaae25facd3a231a0f000bc40614a198a6e66d885bad937b5bc2dd98b40eee",
+    "content_digest": "a352ec6157457b219f356f8ceabe7dffa8ba4e108b5d7dce16281c65ae5fd239",
     "local_id": "index:repo-local:source-surfaces",
     "path": "kag/indexes/source_surface_index.json"
   },

@@ -67,7 +67,6 @@
     {"confidence":1.0,"evidence_anchor_ids":["aoa:aoa-xda-connector:anchor:25ca8a87f8e295c9084f4dcd"],"evidence_class":"deterministic","from_id":"aoa:aoa-xda-connector:entity:3aa07d96446323da1184e58a","id":"aoa:aoa-xda-connector:relation:e6890c8cf242fab4ea00233a","provenance_ref":"deterministic","relation_kind":"calls","temporal_ref":"current","to_id":"aoa:aoa-xda-connector:entity:68aa4c0e27adfad9ad79bc5a","trust_ref":"deterministic"},
     {"confidence":1.0,"evidence_anchor_ids":["aoa:aoa-xda-connector:anchor:25ca8a87f8e295c9084f4dcd"],"evidence_class":"deterministic","from_id":"aoa:aoa-xda-connector:entity:3aa07d96446323da1184e58a","id":"aoa:aoa-xda-connector:relation:757fa3cc5834e69cd588093a","provenance_ref":"deterministic","relation_kind":"calls","temporal_ref":"current","to_id":"aoa:aoa-xda-connector:entity:e1cc25f2ad2ecf6462ea4593","trust_ref":"deterministic"},
     {"confidence":1.0,"evidence_anchor_ids":["aoa:aoa-xda-connector:anchor:25ca8a87f8e295c9084f4dcd"],"evidence_class":"deterministic","from_id":"aoa:aoa-xda-connector:entity:3aa07d96446323da1184e58a","id":"aoa:aoa-xda-connector:relation:aab89f133484b4c1145de60d","provenance_ref":"deterministic","relation_kind":"calls","temporal_ref":"current","to_id":"aoa:aoa-xda-connector:entity:efd5ba950bee29b17ae3f046","trust_ref":"deterministic"},
-    {"confidence":1.0,"evidence_anchor_ids":["aoa:aoa-xda-connector:anchor:c3e41f5f6cbdab8b69b17649"],"evidence_class":"deterministic","from_id":"aoa:aoa-xda-connector:entity:3da42cdc7734a36cdaeb9c9b","id":"aoa:aoa-xda-connector:relation:3a6302d3eb3ff0876450268f","provenance_ref":"deterministic","relation_kind":"calls","temporal_ref":"current","to_id":"aoa:aoa-xda-connector:entity:3da42cdc7734a36cdaeb9c9b","trust_ref":"deterministic"},
     {"confidence":1.0,"evidence_anchor_ids":["aoa:aoa-xda-connector:anchor:2588adce66ae3a9e75087649"],"evidence_class":"deterministic","from_id":"aoa:aoa-xda-connector:entity:3ef5a8b04dc466904455a9f6","id":"aoa:aoa-xda-connector:relation:cb7c58e44720446dd1c1667a","provenance_ref":"deterministic","relation_kind":"calls","temporal_ref":"current","to_id":"aoa:aoa-xda-connector:entity:145806a331c7fc07a29c0cd0","trust_ref":"deterministic"},
     {"confidence":1.0,"evidence_anchor_ids":["aoa:aoa-xda-connector:anchor:e2b848808776a2fef7c774a2"],"evidence_class":"deterministic","from_id":"aoa:aoa-xda-connector:entity:414bcd8727d6822fd612241f","id":"aoa:aoa-xda-connector:relation:223aaf0e157adf423e7d4c0d","provenance_ref":"deterministic","relation_kind":"calls","temporal_ref":"current","to_id":"aoa:aoa-xda-connector:entity:0aaa40273c591f39ec809103","trust_ref":"deterministic"},
     {"confidence":1.0,"evidence_anchor_ids":["aoa:aoa-xda-connector:anchor:e2b848808776a2fef7c774a2"],"evidence_class":"deterministic","from_id":"aoa:aoa-xda-connector:entity:414bcd8727d6822fd612241f","id":"aoa:aoa-xda-connector:relation:a99f51006ab245e56243be4d","provenance_ref":"deterministic","relation_kind":"calls","temporal_ref":"current","to_id":"aoa:aoa-xda-connector:entity:131cccdc14e62f39d84f779d","trust_ref":"deterministic"},
@@ -611,7 +610,7 @@
   ],
   "index_identity": {
     "artifact_kind": "repository_relation_index",
-    "content_digest": "5efab492f4b3fc4a484c89754fdbeb026088fc019b13cd13c4984078d65cb993",
+    "content_digest": "627fd45373cdeb01e7befae0f2fc0f88c1eabb48c5713285e23bb54ef6bb2562",
     "index_kind": "relation",
     "local_id": "index:repo-local:relations",
     "schema_ref": "aoa-kag:schemas/repo-local-kag-repository-index.schema.json"
@@ -697,14 +696,14 @@
   },
   "schema_version": "aoa-repo-local-kag-repository-index-v2",
   "source_index": {
-    "content_digest": "9bfaae25facd3a231a0f000bc40614a198a6e66d885bad937b5bc2dd98b40eee",
+    "content_digest": "a352ec6157457b219f356f8ceabe7dffa8ba4e108b5d7dce16281c65ae5fd239",
     "local_id": "index:repo-local:source-surfaces",
     "path": "kag/indexes/source_surface_index.json"
   },
   "summary": {
-    "entry_count": 608,
+    "entry_count": 607,
     "kind_counts": {
-      "calls": 245,
+      "calls": 244,
       "contains": 131,
       "defines": 173,
       "references": 1,
