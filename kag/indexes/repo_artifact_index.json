@@ -1,737 +1,183 @@
 {
   "entries": [
-    {
-      "artifact_kind": "document",
-      "content_hash": "86462099d6c331f2f23bd17d1c836a7eb23fa0eb0511eb42ab0dc1080b3e9cbb",
-      "id": "artifact:file:.connector-state/agents.md:c48b09d1eb",
-      "path": ".connector-state/AGENTS.md",
-      "source_record_id": "file:.connector-state/agents.md:c48b09d1eb",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "93d10e2cf51bb7b33364e5c8512b65370721b815736424304b1409c2d111fccc",
-      "id": "artifact:file:.connector-state/readme.md:377f66e180",
-      "path": ".connector-state/README.md",
-      "source_record_id": "file:.connector-state/readme.md:377f66e180",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "directory_marker",
-      "content_hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
-      "id": "artifact:file:.connector-state/artifacts/.gitkeep:9accf75395",
-      "path": ".connector-state/artifacts/.gitkeep",
-      "source_record_id": "file:.connector-state/artifacts/.gitkeep:9accf75395",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "directory_marker",
-      "content_hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
-      "id": "artifact:file:.connector-state/cache/.gitkeep:ffb60a7310",
-      "path": ".connector-state/cache/.gitkeep",
-      "source_record_id": "file:.connector-state/cache/.gitkeep:ffb60a7310",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "directory_marker",
-      "content_hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
-      "id": "artifact:file:.connector-state/data/.gitkeep:c10ea2dd50",
-      "path": ".connector-state/data/.gitkeep",
-      "source_record_id": "file:.connector-state/data/.gitkeep:c10ea2dd50",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "config",
-      "content_hash": "db196d0a74f15110060e2cfaffedf925d69308a4299ace2b04b6db2cdfb609b4",
-      "id": "artifact:file:.env.example:a3046da0d1",
-      "path": ".env.example",
-      "source_record_id": "file:.env.example:a3046da0d1",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "config",
-      "content_hash": "0408125f0204477ae37f9e27523102e9849ad4222ce10543d03477f7a6b8fdb0",
-      "id": "artifact:file:.github/workflows/validate.yml:a5c0f08bc4",
-      "path": ".github/workflows/validate.yml",
-      "source_record_id": "file:.github/workflows/validate.yml:a5c0f08bc4",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "owner_metadata",
-      "content_hash": "f94a4b1676b45782c4e42323ad3c351e5b6ff391108d54d1815dcba9ebca69f4",
-      "id": "artifact:file:.gitignore:bc37d034ba",
-      "path": ".gitignore",
-      "source_record_id": "file:.gitignore:bc37d034ba",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "eaf2645ac607a3c95d9634502636d54460b1e53086546a24a6c4da4fab1a7fb5",
-      "id": "artifact:file:agents.md:a54ff182c7",
-      "path": "AGENTS.md",
-      "source_record_id": "file:agents.md:a54ff182c7",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "2189c935f01ca27d2745fddfdbbbfda7ad63433e71a6f9aaaac543ef8abe53a3",
-      "id": "artifact:file:boundaries.md:22819d489e",
-      "path": "BOUNDARIES.md",
-      "source_record_id": "file:boundaries.md:22819d489e",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "94d09348df6583b473b9e780dc834c8f39ddd615cdf1bcdafdac77ea950a3b60",
-      "id": "artifact:file:changelog.md:06572a96a5",
-      "path": "CHANGELOG.md",
-      "source_record_id": "file:changelog.md:06572a96a5",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "e74d62269ba66041661a00a979dfeb163e122df41871dea73af810ef4d9c76f5",
-      "id": "artifact:file:charter.md:91d16dd057",
-      "path": "CHARTER.md",
-      "source_record_id": "file:charter.md:91d16dd057",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "f31ac0d93be584c45c1f09feb12184d10d5b0d2cb5611aaef71e31ec4a12f354",
-      "id": "artifact:file:readme.md:b335630551",
-      "path": "README.md",
-      "source_record_id": "file:readme.md:b335630551",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "34e6d9743f769c88354431dd2e21d7dc1554b2b839e821abd635efa4d68c031b",
-      "id": "artifact:file:roadmap.md:683343bdf9",
-      "path": "ROADMAP.md",
-      "source_record_id": "file:roadmap.md:683343bdf9",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "70dee455aed5b5ea75c3267c4199e8232bcf6db43809436f460e9178d96744b4",
-      "id": "artifact:file:connector/readme.md:5aa00cda8e",
-      "path": "connector/README.md",
-      "source_record_id": "file:connector/readme.md:5aa00cda8e",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "f6b85618d7107cd273c8a7977cb9b5a44beeddf38323ad9426050db5757786e1",
-      "id": "artifact:file:connector/source_policy.md:1ec0689ca4",
-      "path": "connector/SOURCE_POLICY.md",
-      "source_record_id": "file:connector/source_policy.md:1ec0689ca4",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "cac26d0a5d2d4302f1181e082f21181af8f5dfe4068dacb37d5aad6dc45c043c",
-      "id": "artifact:file:connector/storage_policy.md:aef066cc09",
-      "path": "connector/STORAGE_POLICY.md",
-      "source_record_id": "file:connector/storage_policy.md:aef066cc09",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "fixture",
-      "content_hash": "d4e2e906d73627a6251bdb1cf5808e80857775a18d84bdeea563955c9ac6decb",
-      "id": "artifact:file:connector/fixtures/html/xda_pixel_8_pro_husky_root_thread.html:ceeea91bd3",
-      "path": "connector/fixtures/html/xda_pixel_8_pro_husky_root_thread.html",
-      "source_record_id": "file:connector/fixtures/html/xda_pixel_8_pro_husky_root_thread.html:ceeea91bd3",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "manifest",
-      "content_hash": "7313a89d6336d84caeb463a504623ed90c43677083d89a55d6a7d5377229fdb1",
-      "id": "artifact:file:connector/manifests/artifact_classes.yaml:702a5cec90",
-      "path": "connector/manifests/artifact_classes.yaml",
-      "source_record_id": "file:connector/manifests/artifact_classes.yaml:702a5cec90",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "manifest",
-      "content_hash": "ad18a2e91db2fe170dd70db6830444efb9c1117e628de865a766d846fd3f1b39",
-      "id": "artifact:file:connector/manifests/connector_manifest.yaml:747276e9b1",
-      "path": "connector/manifests/connector_manifest.yaml",
-      "source_record_id": "file:connector/manifests/connector_manifest.yaml:747276e9b1",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "manifest",
-      "content_hash": "395e2c690f6f0b4cb05827f493cfc8c64d3d016b972795bf09415915c307aa3a",
-      "id": "artifact:file:connector/manifests/route_allowlist.yaml:1ba98f35b6",
-      "path": "connector/manifests/route_allowlist.yaml",
-      "source_record_id": "file:connector/manifests/route_allowlist.yaml:1ba98f35b6",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "config",
-      "content_hash": "8ebc805f7ef57fdadecb6690799dd789ff2399e1939b5e00140ea95d5285c123",
-      "id": "artifact:file:connector/profiles/pixel-8-pro-husky.yaml:e8d335f15e",
-      "path": "connector/profiles/pixel-8-pro-husky.yaml",
-      "source_record_id": "file:connector/profiles/pixel-8-pro-husky.yaml:e8d335f15e",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "schema",
-      "content_hash": "393451d73758945ce0fb1bd026789f421451fa4370a7cc081d246e44af454aa5",
-      "id": "artifact:file:connector/schemas/answer_packet.schema.json:3886462d56",
-      "path": "connector/schemas/answer_packet.schema.json",
-      "source_record_id": "file:connector/schemas/answer_packet.schema.json:3886462d56",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "schema",
-      "content_hash": "046d3c02fa7c4e573866dfd5e4327f4f084cc8fd4f5204df78e5c5289e15c9dc",
-      "id": "artifact:file:connector/schemas/applicability_report.schema.json:bfec791fa3",
-      "path": "connector/schemas/applicability_report.schema.json",
-      "source_record_id": "file:connector/schemas/applicability_report.schema.json:bfec791fa3",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "schema",
-      "content_hash": "72b49242ef185c6a7cff986383bb9c9357d84d6c62e7a88a3bbfa6661a605bee",
-      "id": "artifact:file:connector/schemas/claim.schema.json:32e75444c5",
-      "path": "connector/schemas/claim.schema.json",
-      "source_record_id": "file:connector/schemas/claim.schema.json:32e75444c5",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "schema",
-      "content_hash": "b9af89273265246634966c2f60505036ab9db2805733fe4e8dbaf74271d5e0bc",
-      "id": "artifact:file:connector/schemas/claim_relation.schema.json:383c535c0b",
-      "path": "connector/schemas/claim_relation.schema.json",
-      "source_record_id": "file:connector/schemas/claim_relation.schema.json:383c535c0b",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "schema",
-      "content_hash": "4a56dba814b5db2bc9182c893ccd0eb45b44b8255e3b73ac8cff47695f99594a",
-      "id": "artifact:file:connector/schemas/conflict_report.schema.json:5a9c8bd05f",
-      "path": "connector/schemas/conflict_report.schema.json",
-      "source_record_id": "file:connector/schemas/conflict_report.schema.json:5a9c8bd05f",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "schema",
-      "content_hash": "781635d22046d8d8cb6c3f4577287a06f61adeed3dfda1174cf4949e023b9c24",
-      "id": "artifact:file:connector/schemas/crawl_receipt.schema.json:b0b5287569",
-      "path": "connector/schemas/crawl_receipt.schema.json",
-      "source_record_id": "file:connector/schemas/crawl_receipt.schema.json:b0b5287569",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "schema",
-      "content_hash": "3d23b67cc82155f6505df15e45ef46d4ffc2d80e1047052b31df1e06c1d76360",
-      "id": "artifact:file:connector/schemas/evidence_packet.schema.json:22b1fd4258",
-      "path": "connector/schemas/evidence_packet.schema.json",
-      "source_record_id": "file:connector/schemas/evidence_packet.schema.json:22b1fd4258",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "schema",
-      "content_hash": "8d55c49003264d025a82cd31a0e896a87609c6c236cb96f7712a450892f9ec78",
-      "id": "artifact:file:connector/schemas/freshness_report.schema.json:116037cdf5",
-      "path": "connector/schemas/freshness_report.schema.json",
-      "source_record_id": "file:connector/schemas/freshness_report.schema.json:116037cdf5",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "schema",
-      "content_hash": "059db246be0980e3504dc81a982dc3c1301c09ddd4c366646fb480a8e3fbf586",
-      "id": "artifact:file:connector/schemas/graph_edge.schema.json:7cdc761c31",
-      "path": "connector/schemas/graph_edge.schema.json",
-      "source_record_id": "file:connector/schemas/graph_edge.schema.json:7cdc761c31",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "schema",
-      "content_hash": "397e28289f5a86995b754fcc5008467dedf38c98628f0d3377d71f8ffdc3e0de",
-      "id": "artifact:file:connector/schemas/graph_node.schema.json:1582c817b6",
-      "path": "connector/schemas/graph_node.schema.json",
-      "source_record_id": "file:connector/schemas/graph_node.schema.json:1582c817b6",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "schema",
-      "content_hash": "47ad9284368ea6ffa9c4103d8c9be0dfce2d74bb4e7d40361d7597e3bad2f05d",
-      "id": "artifact:file:connector/schemas/index_manifest.schema.json:0bee62c710",
-      "path": "connector/schemas/index_manifest.schema.json",
-      "source_record_id": "file:connector/schemas/index_manifest.schema.json:0bee62c710",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "schema",
-      "content_hash": "34f1e89c1130b4aa2c8a6fc19dda62969707264b482a65810331e2a082ab325d",
-      "id": "artifact:file:connector/schemas/materialize_receipt.schema.json:5aeacf8a1f",
-      "path": "connector/schemas/materialize_receipt.schema.json",
-      "source_record_id": "file:connector/schemas/materialize_receipt.schema.json:5aeacf8a1f",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "schema",
-      "content_hash": "59d6260f8e53ede7e7e0d7a97fcd6d18ca32e307b47faceee63d286e6bb1229a",
-      "id": "artifact:file:connector/schemas/normalized_post.schema.json:2b0ac6226c",
-      "path": "connector/schemas/normalized_post.schema.json",
-      "source_record_id": "file:connector/schemas/normalized_post.schema.json:2b0ac6226c",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "schema",
-      "content_hash": "2df0a0353f80010138c9670665f55e4c93c2e2f3a4a1b7ad0dc20f9146247f43",
-      "id": "artifact:file:connector/schemas/normalized_topic.schema.json:9d8d8799e9",
-      "path": "connector/schemas/normalized_topic.schema.json",
-      "source_record_id": "file:connector/schemas/normalized_topic.schema.json:9d8d8799e9",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "schema",
-      "content_hash": "c79c7b268057f7b54d46cac88f0535c3a569fd5aebc490c240c58a2d7c94aa4c",
-      "id": "artifact:file:connector/schemas/warning_report.schema.json:931d4eadc5",
-      "path": "connector/schemas/warning_report.schema.json",
-      "source_record_id": "file:connector/schemas/warning_report.schema.json:931d4eadc5",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "config",
-      "content_hash": "cf27e7445d5cdd76711296181d37d8dc7a44184ffdc9fc8b2d89e0949b5a0ad1",
-      "id": "artifact:file:connector/seeds/pixel_8_pro_husky_threads.yaml:404ad9f281",
-      "path": "connector/seeds/pixel_8_pro_husky_threads.yaml",
-      "source_record_id": "file:connector/seeds/pixel_8_pro_husky_threads.yaml:404ad9f281",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "4f557f126e300566c0d2e39a422da8558606074c1b2f290d7853c684316448f9",
-      "id": "artifact:file:docs/agent_install_route.md:38c86ecaa7",
-      "path": "docs/AGENT_INSTALL_ROUTE.md",
-      "source_record_id": "file:docs/agent_install_route.md:38c86ecaa7",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "c4cb6ccb9b945363dca63c15cbd3bf314b58af4d184f94e62e11d255dd8fe506",
-      "id": "artifact:file:docs/architecture.md:ff21b6b9a3",
-      "path": "docs/ARCHITECTURE.md",
-      "source_record_id": "file:docs/architecture.md:ff21b6b9a3",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "99f820281cbe812dd1cfeefb10bd9c9e9753b361095e90a823527c59320983c8",
-      "id": "artifact:file:docs/connector_family_claim_contract.md:2fbbbc3cbc",
-      "path": "docs/CONNECTOR_FAMILY_CLAIM_CONTRACT.md",
-      "source_record_id": "file:docs/connector_family_claim_contract.md:2fbbbc3cbc",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "198a2e7dcd01d9037b3c5c02365af6b0b3821f65902a41e9aaa59b81df311d2e",
-      "id": "artifact:file:docs/graph_model.md:72ed1bbd50",
-      "path": "docs/GRAPH_MODEL.md",
-      "source_record_id": "file:docs/graph_model.md:72ed1bbd50",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "fc9b28dd72b239becdc6b27a9b539bb07b4a9620deee6483bc88a90779d79018",
-      "id": "artifact:file:docs/install.md:93adeedb62",
-      "path": "docs/INSTALL.md",
-      "source_record_id": "file:docs/install.md:93adeedb62",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "7f2a4269f12262589ed6c7d4f02f65dfed5ee6d71727249b02f9e5cec7474c68",
-      "id": "artifact:file:docs/mcp_rollout.md:7592ebe12e",
-      "path": "docs/MCP_ROLLOUT.md",
-      "source_record_id": "file:docs/mcp_rollout.md:7592ebe12e",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "0f6c6c59a344ab507aa04d7febeeb00ee68bb21627676bfeda7c3c7429d3bfd6",
-      "id": "artifact:file:docs/query_model.md:dc059c6e17",
-      "path": "docs/QUERY_MODEL.md",
-      "source_record_id": "file:docs/query_model.md:dc059c6e17",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "1c3e2596c9bebefcbfe87af72c1f2f44705400f12d14d1ff9bc12a4faa87925d",
-      "id": "artifact:file:docs/runtime_contract.md:fa011f8c69",
-      "path": "docs/RUNTIME_CONTRACT.md",
-      "source_record_id": "file:docs/runtime_contract.md:fa011f8c69",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "5cb57b38b1df0edf36af0d389af383af6f3bb035ca79d75275af92c9e2b1622e",
-      "id": "artifact:file:docs/starter_proof.md:a06d166b7c",
-      "path": "docs/STARTER_PROOF.md",
-      "source_record_id": "file:docs/starter_proof.md:a06d166b7c",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "a51c208fabb3667c975a64db026aca3ff07d530b22e62f7b06996f37a953d654",
-      "id": "artifact:file:docs/decisions/aoa-xda-d-0001-second-source-connector-proof.md:b56c503804",
-      "path": "docs/decisions/AOA-XDA-D-0001-second-source-connector-proof.md",
-      "source_record_id": "file:docs/decisions/aoa-xda-d-0001-second-source-connector-proof.md:b56c503804",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "9799dc98e8ce7ec327a6dc407efe54bad926d3105bc471a4c3df61aeb613e752",
-      "id": "artifact:file:docs/decisions/readme.md:e5ec0e7030",
-      "path": "docs/decisions/README.md",
-      "source_record_id": "file:docs/decisions/readme.md:e5ec0e7030",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "a56695743f726840cc3e95ba86f4b5948b01df7fa36531f9f50c053605c7f3ae",
-      "id": "artifact:file:evals/agents.md:97b1e9d3cd",
-      "path": "evals/AGENTS.md",
-      "source_record_id": "file:evals/agents.md:97b1e9d3cd",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "config",
-      "content_hash": "580769d8d758197b0e3b2b8152d2db29d5efd32f93b4ae44b8bccaa084c0ebd6",
-      "id": "artifact:file:evals/port.yaml:b027c5aa6b",
-      "path": "evals/PORT.yaml",
-      "source_record_id": "file:evals/port.yaml:b027c5aa6b",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "f27662a49bf58cf5fcbe84597502313cd335ca770bae80db998624068b533d09",
-      "id": "artifact:file:evals/readme.md:a1a9eeb43d",
-      "path": "evals/README.md",
-      "source_record_id": "file:evals/readme.md:a1a9eeb43d",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "f9540523b031e203c04577189b865fad0af154f166033b14d37ecd61788c5f15",
-      "id": "artifact:file:evals/intake/readme.md:d27b56ff43",
-      "path": "evals/intake/README.md",
-      "source_record_id": "file:evals/intake/readme.md:d27b56ff43",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "5d3b50090faa9e0031562b16769af6199800649bfe92dd376f815d2c7517f9cf",
-      "id": "artifact:file:evals/reports/readme.md:ac5e016ca2",
-      "path": "evals/reports/README.md",
-      "source_record_id": "file:evals/reports/readme.md:ac5e016ca2",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "50bb4f3d7ed7526562dd10046f0231efaa08e116c8bef539b46a6a43c8e50355",
-      "id": "artifact:file:evals/suites/readme.md:8611332c6f",
-      "path": "evals/suites/README.md",
-      "source_record_id": "file:evals/suites/readme.md:8611332c6f",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "aaaa9bb78de379400d5fa7b1872db1f41036195026880051c100310a2995671d",
-      "id": "artifact:file:evals/suites/connector-family-claim-runtime.suite.md:b972eb11b6",
-      "path": "evals/suites/connector-family-claim-runtime.suite.md",
-      "source_record_id": "file:evals/suites/connector-family-claim-runtime.suite.md:b972eb11b6",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "config",
-      "content_hash": "3f84fd71eebe1dd5ddc8db7d4174355fb9fdba107cd955225cd4a3e11f2d44e5",
-      "id": "artifact:file:evals/suites/starter_claim_answer_packets.json:0406674f03",
-      "path": "evals/suites/starter_claim_answer_packets.json",
-      "source_record_id": "file:evals/suites/starter_claim_answer_packets.json:0406674f03",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "config",
-      "content_hash": "e4d1437ba808a1c63781c876df24e783d6e73f8e75e968777d07943bf9e6954e",
-      "id": "artifact:file:evals/suites/starter_claim_conflict_relations.json:3880ed3d49",
-      "path": "evals/suites/starter_claim_conflict_relations.json",
-      "source_record_id": "file:evals/suites/starter_claim_conflict_relations.json:3880ed3d49",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "ee74a24cf877e86ee7abdb1dc5f765e09269e870581831c3a143b5588f4a3768",
-      "id": "artifact:file:kag/agents.md:f80d68b85b",
-      "path": "kag/AGENTS.md",
-      "source_record_id": "file:kag/agents.md:f80d68b85b",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "e32e4d2b3677b1f8ad80c6b5de64cd1eba492211f506f71268824519acee5c47",
-      "id": "artifact:file:kag/readme.md:213631cc86",
-      "path": "kag/README.md",
-      "source_record_id": "file:kag/readme.md:213631cc86",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "config",
-      "content_hash": "f0adfb89924226cf9c5ad6a12e849c99c8b866b941737b26b0e3e545d0e0e583",
-      "id": "artifact:file:kag/edges/source_routes_to_storage_boundary.json:8c12cb4c11",
-      "path": "kag/edges/source_routes_to_storage_boundary.json",
-      "source_record_id": "file:kag/edges/source_routes_to_storage_boundary.json:8c12cb4c11",
-      "surface_state": "generated_readmodel"
-    },
-    {
-      "artifact_kind": "index",
-      "content_hash": "3719b0ae00c49859cc65e344df88fd87ca8f0464ba7e1375bd48f75aa35ea5e9",
-      "id": "artifact:file:kag/indexes/source_inventory.json:1416e51205",
-      "path": "kag/indexes/source_inventory.json",
-      "source_record_id": "file:kag/indexes/source_inventory.json:1416e51205",
-      "surface_state": "generated_readmodel"
-    },
-    {
-      "artifact_kind": "config",
-      "content_hash": "3b2215daa05faea51835a99620527d2324f7c8ff050a586bfe25f33e0d0a6720",
-      "id": "artifact:file:kag/manifest.json:0d25d90d08",
-      "path": "kag/manifest.json",
-      "source_record_id": "file:kag/manifest.json:0d25d90d08",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "config",
-      "content_hash": "08da09994c1439c7da0fd23cd7f699797402496b962bda59c22c63476b5d260d",
-      "id": "artifact:file:kag/nodes/source_home.json:a87a1f114c",
-      "path": "kag/nodes/source_home.json",
-      "source_record_id": "file:kag/nodes/source_home.json:a87a1f114c",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "config",
-      "content_hash": "bf27feb4cfae9d12e0a456876eb2caaed8e05b44db60a173ec6e0bdf378e9533",
-      "id": "artifact:file:kag/nodes/storage_boundary.json:45dfb2e4b0",
-      "path": "kag/nodes/storage_boundary.json",
-      "source_record_id": "file:kag/nodes/storage_boundary.json:45dfb2e4b0",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "projection",
-      "content_hash": "270ebc9de60bf9885784e3dea9687b79d9d99a3986e463c65d0d4954d7e594fc",
-      "id": "artifact:file:kag/projections/source_return.json:1a2a306538",
-      "path": "kag/projections/source_return.json",
-      "source_record_id": "file:kag/projections/source_return.json:1a2a306538",
-      "surface_state": "generated_readmodel"
-    },
-    {
-      "artifact_kind": "receipt",
-      "content_hash": "970c65e5bb56a3cce99a89bda7110d86370ed82406a63d0528c7a3ba260a4123",
-      "id": "artifact:file:kag/receipts/validation_receipt.json:8e616be0cd",
-      "path": "kag/receipts/validation_receipt.json",
-      "source_record_id": "file:kag/receipts/validation_receipt.json:8e616be0cd",
-      "surface_state": "receipt"
-    },
-    {
-      "artifact_kind": "manifest",
-      "content_hash": "fe11365d68484fc2f17583af6200cbab781ee1a8c6682ae895da7c906bc5d91d",
-      "id": "artifact:file:pyproject.toml:50c86b7ed8",
-      "path": "pyproject.toml",
-      "source_record_id": "file:pyproject.toml:50c86b7ed8",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "validator",
-      "content_hash": "7431cfd9ba5f6b3edbca29cc46e818085ae472a94a54aee736ce40e8db289280",
-      "id": "artifact:file:scripts/validate_connector.py:de39a47221",
-      "path": "scripts/validate_connector.py",
-      "source_record_id": "file:scripts/validate_connector.py:de39a47221",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "source_code",
-      "content_hash": "1a8a292da8fd075ea11edfc33a66095b569436faf45c8ab0fd67e6123cee5fa9",
-      "id": "artifact:file:src/aoa_xda_connector/__init__.py:f2babbac5c",
-      "path": "src/aoa_xda_connector/__init__.py",
-      "source_record_id": "file:src/aoa_xda_connector/__init__.py:f2babbac5c",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "source_code",
-      "content_hash": "f0ee2e6fa755d505794889f12cc1c0dd241b24b200a3ba279cdbd9c6797f8a74",
-      "id": "artifact:file:src/aoa_xda_connector/answer/__init__.py:5a67d4b217",
-      "path": "src/aoa_xda_connector/answer/__init__.py",
-      "source_record_id": "file:src/aoa_xda_connector/answer/__init__.py:5a67d4b217",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "source_code",
-      "content_hash": "85fb7616e6265098bf7c38892f19336db14ebe4492ba05246e375971964f7f3a",
-      "id": "artifact:file:src/aoa_xda_connector/claims/__init__.py:14e72d1c99",
-      "path": "src/aoa_xda_connector/claims/__init__.py",
-      "source_record_id": "file:src/aoa_xda_connector/claims/__init__.py:14e72d1c99",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "source_code",
-      "content_hash": "b5e2d9a407ffa8771f6bb249beaf60291c9157f57dde8257aafbd717e733653e",
-      "id": "artifact:file:src/aoa_xda_connector/cli.py:713e0605d1",
-      "path": "src/aoa_xda_connector/cli.py",
-      "source_record_id": "file:src/aoa_xda_connector/cli.py:713e0605d1",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "source_code",
-      "content_hash": "d6fc272a67ebc916117089e2a8f5977d480428388bbd8937090e1681b77c1f8c",
-      "id": "artifact:file:src/aoa_xda_connector/config.py:3429119f7b",
-      "path": "src/aoa_xda_connector/config.py",
-      "source_record_id": "file:src/aoa_xda_connector/config.py:3429119f7b",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "source_code",
-      "content_hash": "6b0b13bc8ac72be25c21f1e991ab540950bcec9c791c97400b755e97a00364e8",
-      "id": "artifact:file:src/aoa_xda_connector/evaluation/__init__.py:78efcf5d49",
-      "path": "src/aoa_xda_connector/evaluation/__init__.py",
-      "source_record_id": "file:src/aoa_xda_connector/evaluation/__init__.py:78efcf5d49",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "source_code",
-      "content_hash": "a29ffd10a7074915530024dac1fb0cc3baea40ad3d3a9cc9f07a405f1ec35bad",
-      "id": "artifact:file:src/aoa_xda_connector/graph/__init__.py:97ec2f4c2d",
-      "path": "src/aoa_xda_connector/graph/__init__.py",
-      "source_record_id": "file:src/aoa_xda_connector/graph/__init__.py:97ec2f4c2d",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "source_code",
-      "content_hash": "69367ddbceb364549f2c1020461baad1684df5414388245063ed84fb5f8527bf",
-      "id": "artifact:file:src/aoa_xda_connector/index/__init__.py:3f132fa50a",
-      "path": "src/aoa_xda_connector/index/__init__.py",
-      "source_record_id": "file:src/aoa_xda_connector/index/__init__.py:3f132fa50a",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "source_code",
-      "content_hash": "da68f93c423adb3016414a844d984878ede8943e1d997ebd148b0dada84d2717",
-      "id": "artifact:file:src/aoa_xda_connector/normalize/__init__.py:ec606a94f0",
-      "path": "src/aoa_xda_connector/normalize/__init__.py",
-      "source_record_id": "file:src/aoa_xda_connector/normalize/__init__.py:ec606a94f0",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "source_code",
-      "content_hash": "9f3ae0f6cbe8e89b48c73cae38d3401de1f2e5203a36f2182723ce1b324d5bca",
-      "id": "artifact:file:src/aoa_xda_connector/parse/__init__.py:031f410572",
-      "path": "src/aoa_xda_connector/parse/__init__.py",
-      "source_record_id": "file:src/aoa_xda_connector/parse/__init__.py:031f410572",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "source_code",
-      "content_hash": "972283742f108d097233b5a2155bd8298c1eb3cdd35424e36e40dd74b23478ff",
-      "id": "artifact:file:src/aoa_xda_connector/policy/__init__.py:968b3b3e15",
-      "path": "src/aoa_xda_connector/policy/__init__.py",
-      "source_record_id": "file:src/aoa_xda_connector/policy/__init__.py:968b3b3e15",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "source_code",
-      "content_hash": "9e217dfeefd7c754c1fe4f1cc14aefd8aab4267ce590cd23b6ed2e633d98d21e",
-      "id": "artifact:file:src/aoa_xda_connector/policy/rules.py:9c465bdab5",
-      "path": "src/aoa_xda_connector/policy/rules.py",
-      "source_record_id": "file:src/aoa_xda_connector/policy/rules.py:9c465bdab5",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "source_code",
-      "content_hash": "5577c378f1dad3d811bf11cd397fbbcc469dd98af8b77c5f612daacc382af995",
-      "id": "artifact:file:src/aoa_xda_connector/query/__init__.py:e5a13e38b3",
-      "path": "src/aoa_xda_connector/query/__init__.py",
-      "source_record_id": "file:src/aoa_xda_connector/query/__init__.py:e5a13e38b3",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "source_code",
-      "content_hash": "a3d6c14680765f37b50a7f0a9359f9225fbb7b0e01f11dc4a4a6ac530300bf1e",
-      "id": "artifact:file:src/aoa_xda_connector/sources/__init__.py:0b6690cd88",
-      "path": "src/aoa_xda_connector/sources/__init__.py",
-      "source_record_id": "file:src/aoa_xda_connector/sources/__init__.py:0b6690cd88",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "source_code",
-      "content_hash": "aac14c22854510c716e8fc3626df5d7b6aad8f2ec928ca03763e16ea2b6da3d3",
-      "id": "artifact:file:src/aoa_xda_connector/storage/__init__.py:95d7213aba",
-      "path": "src/aoa_xda_connector/storage/__init__.py",
-      "source_record_id": "file:src/aoa_xda_connector/storage/__init__.py:95d7213aba",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "test",
-      "content_hash": "d34f7e7045eb3eebc87833f287188d05acdd533e1ec2b0adc10b811b617e155f",
-      "id": "artifact:file:tests/contract/test_validator.py:d2f4ffcf08",
-      "path": "tests/contract/test_validator.py",
-      "source_record_id": "file:tests/contract/test_validator.py:d2f4ffcf08",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "test",
-      "content_hash": "2936d07afa2d1e7d3d6a0fd060b6b9a759b37d550961048b23afbca5477df348",
-      "id": "artifact:file:tests/integration/test_cli_eval.py:72e7f3ce47",
-      "path": "tests/integration/test_cli_eval.py",
-      "source_record_id": "file:tests/integration/test_cli_eval.py:72e7f3ce47",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "test",
-      "content_hash": "2ac30419e49b6b59ddd5dca0bee39e56f1ef7db1a0152d099622b528042ccee6",
-      "id": "artifact:file:tests/unit/test_graph_answer.py:7bd472ece7",
-      "path": "tests/unit/test_graph_answer.py",
-      "source_record_id": "file:tests/unit/test_graph_answer.py:7bd472ece7",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "test",
-      "content_hash": "90fd5e2e88d0dc35c545c3b3c6ab68c8249c821cbcd25945bddbc0a1e8d45a64",
-      "id": "artifact:file:tests/unit/test_parse_normalize_policy.py:4f69da0d97",
-      "path": "tests/unit/test_parse_normalize_policy.py",
-      "source_record_id": "file:tests/unit/test_parse_normalize_policy.py:4f69da0d97",
-      "surface_state": "authored_source"
-    }
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:11dac241ec64f396bcd4d276","artifact_kind":"document","content_hash":"86462099d6c331f2f23bd17d1c836a7eb23fa0eb0511eb42ab0dc1080b3e9cbb","id":"aoa:aoa-xda-connector:artifact:c48b09d1eb9fe504dea19fd7","lineage_path":".connector-state/AGENTS.md","mime":"text/markdown","path":".connector-state/AGENTS.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:e8bd349a1bc9396975e049d0"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:5360c1a24904fa7a25024193","artifact_kind":"document","content_hash":"93d10e2cf51bb7b33364e5c8512b65370721b815736424304b1409c2d111fccc","id":"aoa:aoa-xda-connector:artifact:377f66e180bd91fd0a479887","lineage_path":".connector-state/README.md","mime":"text/markdown","path":".connector-state/README.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:b839bc45fb3406cc9b408f8f"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:2b9ebce9a4dd51ff547aad3c","artifact_kind":"directory_marker","content_hash":"01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b","id":"aoa:aoa-xda-connector:artifact:9accf753951b664ae3e2e2bf","lineage_path":".connector-state/artifacts/.gitkeep","mime":"text/plain","path":".connector-state/artifacts/.gitkeep","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:17dd0158f0877875d4ad224d"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:821d8dfd26f20c99c9cdf968","artifact_kind":"directory_marker","content_hash":"01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b","id":"aoa:aoa-xda-connector:artifact:ffb60a731046fa6ceb4e8ba0","lineage_path":".connector-state/cache/.gitkeep","mime":"text/plain","path":".connector-state/cache/.gitkeep","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:fe07c381cec36b49a25107a2"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:898b800847b845c387e5955e","artifact_kind":"directory_marker","content_hash":"01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b","id":"aoa:aoa-xda-connector:artifact:c10ea2dd5030b4f0098fa68d","lineage_path":".connector-state/data/.gitkeep","mime":"text/plain","path":".connector-state/data/.gitkeep","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:8aad2af5e05a17ed88ca6e4e"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:382cd3b5d18393ad4a0d1a4c","artifact_kind":"config","content_hash":"db196d0a74f15110060e2cfaffedf925d69308a4299ace2b04b6db2cdfb609b4","id":"aoa:aoa-xda-connector:artifact:a3046da0d15a27e89f2afe63","lineage_path":".env.example","mime":"text/plain","path":".env.example","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:bb1aa71ab435949f5a1ce2cc"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:3a511a1dd28a094a2303cb46","artifact_kind":"config","content_hash":"3783dff5ce455a3c8f5cc77e04000c510217a63eeeb94d3071569a941d94efea","id":"aoa:aoa-xda-connector:artifact:a5c0f08bc43f53a0451cad4a","lineage_path":".github/workflows/validate.yml","mime":"application/yaml","path":".github/workflows/validate.yml","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:c1bdec3cc2f76b22ad181285"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:b31a1c52988d475779e90c3c","artifact_kind":"owner_metadata","content_hash":"f94a4b1676b45782c4e42323ad3c351e5b6ff391108d54d1815dcba9ebca69f4","id":"aoa:aoa-xda-connector:artifact:bc37d034bad564583790a46f","lineage_path":".gitignore","mime":"text/plain","path":".gitignore","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:2a9c2189dc84b7060369228f"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:7c0a21e9867c9f7db3b408bc","artifact_kind":"document","content_hash":"eaf2645ac607a3c95d9634502636d54460b1e53086546a24a6c4da4fab1a7fb5","id":"aoa:aoa-xda-connector:artifact:a54ff182c7e8acf56acfd6e4","lineage_path":"AGENTS.md","mime":"text/markdown","path":"AGENTS.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:6a7325b102ee0334fa6a950d"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:43ba6639b2e98f8499cb63de","artifact_kind":"document","content_hash":"2189c935f01ca27d2745fddfdbbbfda7ad63433e71a6f9aaaac543ef8abe53a3","id":"aoa:aoa-xda-connector:artifact:22819d489ee6bbea874f5a03","lineage_path":"BOUNDARIES.md","mime":"text/markdown","path":"BOUNDARIES.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:f053a3e2299ea5fd3eff12b9"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:631dcbbb2674cd2346331930","artifact_kind":"document","content_hash":"94d09348df6583b473b9e780dc834c8f39ddd615cdf1bcdafdac77ea950a3b60","id":"aoa:aoa-xda-connector:artifact:06572a96a58dc510037d5efa","lineage_path":"CHANGELOG.md","mime":"text/markdown","path":"CHANGELOG.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:05d40eb6395dfa254101c4c6"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:96e3bf5689612dcf740ca0fe","artifact_kind":"document","content_hash":"e74d62269ba66041661a00a979dfeb163e122df41871dea73af810ef4d9c76f5","id":"aoa:aoa-xda-connector:artifact:91d16dd057bd39f6431e90a1","lineage_path":"CHARTER.md","mime":"text/markdown","path":"CHARTER.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:18fa988b38a597f29f800efd"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:1ca6e15b2e18ccfdd1b001e1","artifact_kind":"document","content_hash":"f31ac0d93be584c45c1f09feb12184d10d5b0d2cb5611aaef71e31ec4a12f354","id":"aoa:aoa-xda-connector:artifact:b335630551682c19a781afeb","lineage_path":"README.md","mime":"text/markdown","path":"README.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:e8342739cad8a76020797889"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:494e90eaa9db1a4317642a35","artifact_kind":"document","content_hash":"34e6d9743f769c88354431dd2e21d7dc1554b2b839e821abd635efa4d68c031b","id":"aoa:aoa-xda-connector:artifact:683343bdf93f55ed3cada861","lineage_path":"ROADMAP.md","mime":"text/markdown","path":"ROADMAP.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:b5a0cd2c0d91152a7ba34503"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:25ff506aeda2e082ad9dea58","artifact_kind":"document","content_hash":"70dee455aed5b5ea75c3267c4199e8232bcf6db43809436f460e9178d96744b4","id":"aoa:aoa-xda-connector:artifact:5aa00cda8edb94031adb99c5","lineage_path":"connector/README.md","mime":"text/markdown","path":"connector/README.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:1ba22ef90187685b10675d7c"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:ab6297abc73cfdc24aad451b","artifact_kind":"document","content_hash":"f6b85618d7107cd273c8a7977cb9b5a44beeddf38323ad9426050db5757786e1","id":"aoa:aoa-xda-connector:artifact:1ec0689ca44c34dd0d3260ff","lineage_path":"connector/SOURCE_POLICY.md","mime":"text/markdown","path":"connector/SOURCE_POLICY.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:6c47c96f08ca630de9481875"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:7bd519f0b1dd0b9a54e15819","artifact_kind":"document","content_hash":"cac26d0a5d2d4302f1181e082f21181af8f5dfe4068dacb37d5aad6dc45c043c","id":"aoa:aoa-xda-connector:artifact:aef066cc092465374fe3f115","lineage_path":"connector/STORAGE_POLICY.md","mime":"text/markdown","path":"connector/STORAGE_POLICY.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:7af57c6343039d35eca2054d"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:0397cedc24b025d797aa6db2","artifact_kind":"fixture","content_hash":"d4e2e906d73627a6251bdb1cf5808e80857775a18d84bdeea563955c9ac6decb","id":"aoa:aoa-xda-connector:artifact:ceeea91bd37f997d59acb812","lineage_path":"connector/fixtures/html/xda_pixel_8_pro_husky_root_thread.html","mime":"text/html","path":"connector/fixtures/html/xda_pixel_8_pro_husky_root_thread.html","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:90f4e7d6d65b6de739895865"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:29ca27a3766014720dceccf7","artifact_kind":"manifest","content_hash":"7313a89d6336d84caeb463a504623ed90c43677083d89a55d6a7d5377229fdb1","id":"aoa:aoa-xda-connector:artifact:702a5cec90358a6661e4e9bb","lineage_path":"connector/manifests/artifact_classes.yaml","mime":"application/yaml","path":"connector/manifests/artifact_classes.yaml","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:3336497cb3c70cc916b46df7"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:06b392ff77bebf57e2fdb2aa","artifact_kind":"manifest","content_hash":"ad18a2e91db2fe170dd70db6830444efb9c1117e628de865a766d846fd3f1b39","id":"aoa:aoa-xda-connector:artifact:747276e9b10f21d3c6259131","lineage_path":"connector/manifests/connector_manifest.yaml","mime":"application/yaml","path":"connector/manifests/connector_manifest.yaml","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:8c137f7de3e9dc73946f073c"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:5a782ef9944d26330fb61f8a","artifact_kind":"manifest","content_hash":"395e2c690f6f0b4cb05827f493cfc8c64d3d016b972795bf09415915c307aa3a","id":"aoa:aoa-xda-connector:artifact:1ba98f35b6065a23e1a3c9c2","lineage_path":"connector/manifests/route_allowlist.yaml","mime":"application/yaml","path":"connector/manifests/route_allowlist.yaml","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:6ea785b8e5dcd91c277b70e3"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:bbacef981af28afd5b5e8794","artifact_kind":"config","content_hash":"8ebc805f7ef57fdadecb6690799dd789ff2399e1939b5e00140ea95d5285c123","id":"aoa:aoa-xda-connector:artifact:e8d335f15e2b53b54c3e3be5","lineage_path":"connector/profiles/pixel-8-pro-husky.yaml","mime":"application/yaml","path":"connector/profiles/pixel-8-pro-husky.yaml","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:3034dfbfd5f9c82abb52210a"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:2e6fcf5004da2df7fdb6c595","artifact_kind":"schema","content_hash":"393451d73758945ce0fb1bd026789f421451fa4370a7cc081d246e44af454aa5","id":"aoa:aoa-xda-connector:artifact:3886462d5604c8c4b735036c","lineage_path":"connector/schemas/answer_packet.schema.json","mime":"application/json","path":"connector/schemas/answer_packet.schema.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:c808aa147fd74681bee45724"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:9bf9383d0c56c6f412a428b0","artifact_kind":"schema","content_hash":"046d3c02fa7c4e573866dfd5e4327f4f084cc8fd4f5204df78e5c5289e15c9dc","id":"aoa:aoa-xda-connector:artifact:bfec791fa387e6ca3e8d3752","lineage_path":"connector/schemas/applicability_report.schema.json","mime":"application/json","path":"connector/schemas/applicability_report.schema.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:d4d6041660281915471f7325"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:e46dee4443998f0a1f2e1ae4","artifact_kind":"schema","content_hash":"72b49242ef185c6a7cff986383bb9c9357d84d6c62e7a88a3bbfa6661a605bee","id":"aoa:aoa-xda-connector:artifact:32e75444c5948df7e0b1e7fa","lineage_path":"connector/schemas/claim.schema.json","mime":"application/json","path":"connector/schemas/claim.schema.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:e88387930c29486030cd775c"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:f2bdb400325ddc502e114892","artifact_kind":"schema","content_hash":"b9af89273265246634966c2f60505036ab9db2805733fe4e8dbaf74271d5e0bc","id":"aoa:aoa-xda-connector:artifact:383c535c0b3acf1a8dd281cb","lineage_path":"connector/schemas/claim_relation.schema.json","mime":"application/json","path":"connector/schemas/claim_relation.schema.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:602934f9c6bcc4225b212184"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:aaa479eadd875eaf141b42e4","artifact_kind":"schema","content_hash":"4a56dba814b5db2bc9182c893ccd0eb45b44b8255e3b73ac8cff47695f99594a","id":"aoa:aoa-xda-connector:artifact:5a9c8bd05fce96cb59dc8dcf","lineage_path":"connector/schemas/conflict_report.schema.json","mime":"application/json","path":"connector/schemas/conflict_report.schema.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:034be4695fae12980940661f"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:82b4dad7d02e1a455493f9dd","artifact_kind":"schema","content_hash":"781635d22046d8d8cb6c3f4577287a06f61adeed3dfda1174cf4949e023b9c24","id":"aoa:aoa-xda-connector:artifact:b0b5287569ea6de0c6023a8c","lineage_path":"connector/schemas/crawl_receipt.schema.json","mime":"application/json","path":"connector/schemas/crawl_receipt.schema.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:bf60857e61dbb8722c842939"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:21ef139d4f58ad8f297b9389","artifact_kind":"schema","content_hash":"3d23b67cc82155f6505df15e45ef46d4ffc2d80e1047052b31df1e06c1d76360","id":"aoa:aoa-xda-connector:artifact:22b1fd425863053e41411674","lineage_path":"connector/schemas/evidence_packet.schema.json","mime":"application/json","path":"connector/schemas/evidence_packet.schema.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:5f4b2b4a4e67ffe732c525d7"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:7c56dc0ef80df73eddb7ff67","artifact_kind":"schema","content_hash":"8d55c49003264d025a82cd31a0e896a87609c6c236cb96f7712a450892f9ec78","id":"aoa:aoa-xda-connector:artifact:116037cdf5557f0eda860bc9","lineage_path":"connector/schemas/freshness_report.schema.json","mime":"application/json","path":"connector/schemas/freshness_report.schema.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:c07f80cdca8ed743a6a60629"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:7bf98d6de963b4d97b091587","artifact_kind":"schema","content_hash":"059db246be0980e3504dc81a982dc3c1301c09ddd4c366646fb480a8e3fbf586","id":"aoa:aoa-xda-connector:artifact:7cdc761c3198c74623fc89dd","lineage_path":"connector/schemas/graph_edge.schema.json","mime":"application/json","path":"connector/schemas/graph_edge.schema.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:28187787415068c69eb7c945"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:a3f47a8f4cde7f97a27189d9","artifact_kind":"schema","content_hash":"397e28289f5a86995b754fcc5008467dedf38c98628f0d3377d71f8ffdc3e0de","id":"aoa:aoa-xda-connector:artifact:1582c817b6725b164225ceeb","lineage_path":"connector/schemas/graph_node.schema.json","mime":"application/json","path":"connector/schemas/graph_node.schema.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:88be832317affe017b381c4a"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:63a1ee6b4933f44198fcb628","artifact_kind":"schema","content_hash":"47ad9284368ea6ffa9c4103d8c9be0dfce2d74bb4e7d40361d7597e3bad2f05d","id":"aoa:aoa-xda-connector:artifact:0bee62c7109961bf8ad8bcc2","lineage_path":"connector/schemas/index_manifest.schema.json","mime":"application/json","path":"connector/schemas/index_manifest.schema.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:3d25941fb247f785562a16ce"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:d5eefb5df52f44e3d0ecb699","artifact_kind":"schema","content_hash":"34f1e89c1130b4aa2c8a6fc19dda62969707264b482a65810331e2a082ab325d","id":"aoa:aoa-xda-connector:artifact:5aeacf8a1f48a8c8e307c865","lineage_path":"connector/schemas/materialize_receipt.schema.json","mime":"application/json","path":"connector/schemas/materialize_receipt.schema.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:32b90b11a45ee7a320e09524"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:1e206f3f00f2769f55cac645","artifact_kind":"schema","content_hash":"59d6260f8e53ede7e7e0d7a97fcd6d18ca32e307b47faceee63d286e6bb1229a","id":"aoa:aoa-xda-connector:artifact:2b0ac6226c78dbc34b37a4ac","lineage_path":"connector/schemas/normalized_post.schema.json","mime":"application/json","path":"connector/schemas/normalized_post.schema.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:b08d5a4e3257c0ebd147e60f"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:1fca6264e97bcff7bfff0f4f","artifact_kind":"schema","content_hash":"2df0a0353f80010138c9670665f55e4c93c2e2f3a4a1b7ad0dc20f9146247f43","id":"aoa:aoa-xda-connector:artifact:9d8d8799e9a19ad68b0d6a0c","lineage_path":"connector/schemas/normalized_topic.schema.json","mime":"application/json","path":"connector/schemas/normalized_topic.schema.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:7bfa49e0528ac0465064c5e9"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:355ac744b148ae696c264d9e","artifact_kind":"schema","content_hash":"c79c7b268057f7b54d46cac88f0535c3a569fd5aebc490c240c58a2d7c94aa4c","id":"aoa:aoa-xda-connector:artifact:931d4eadc5ff3f80d734a323","lineage_path":"connector/schemas/warning_report.schema.json","mime":"application/json","path":"connector/schemas/warning_report.schema.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:5ccd6cfe51fb1c413943f436"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:cba05960caa68e76488da33e","artifact_kind":"config","content_hash":"cf27e7445d5cdd76711296181d37d8dc7a44184ffdc9fc8b2d89e0949b5a0ad1","id":"aoa:aoa-xda-connector:artifact:404ad9f2810f715692c704c5","lineage_path":"connector/seeds/pixel_8_pro_husky_threads.yaml","mime":"application/yaml","path":"connector/seeds/pixel_8_pro_husky_threads.yaml","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:2158bd8675d3877fbc39a818"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:ba32e9a4cb117255a6fde046","artifact_kind":"document","content_hash":"4f557f126e300566c0d2e39a422da8558606074c1b2f290d7853c684316448f9","id":"aoa:aoa-xda-connector:artifact:38c86ecaa79ed3efa73183dd","lineage_path":"docs/AGENT_INSTALL_ROUTE.md","mime":"text/markdown","path":"docs/AGENT_INSTALL_ROUTE.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:c96bb6e58bbb98831a462023"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:73dfcf3e25932bad0b3056a2","artifact_kind":"document","content_hash":"c4cb6ccb9b945363dca63c15cbd3bf314b58af4d184f94e62e11d255dd8fe506","id":"aoa:aoa-xda-connector:artifact:ff21b6b9a3a33e9d9056ac96","lineage_path":"docs/ARCHITECTURE.md","mime":"text/markdown","path":"docs/ARCHITECTURE.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:52a0d0a8a7b9a721d084426b"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:31d35dd9168523d049fcfb22","artifact_kind":"document","content_hash":"99f820281cbe812dd1cfeefb10bd9c9e9753b361095e90a823527c59320983c8","id":"aoa:aoa-xda-connector:artifact:2fbbbc3cbc966fcfc236c963","lineage_path":"docs/CONNECTOR_FAMILY_CLAIM_CONTRACT.md","mime":"text/markdown","path":"docs/CONNECTOR_FAMILY_CLAIM_CONTRACT.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:b8bc27f888b66fe57145b3e0"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:dded8ca0c0009b23b0f4bebb","artifact_kind":"document","content_hash":"198a2e7dcd01d9037b3c5c02365af6b0b3821f65902a41e9aaa59b81df311d2e","id":"aoa:aoa-xda-connector:artifact:72ed1bbd50d1e98278f415c5","lineage_path":"docs/GRAPH_MODEL.md","mime":"text/markdown","path":"docs/GRAPH_MODEL.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:d939b89d341656ac4324a473"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:bee16e6b4cfd033889ce0d07","artifact_kind":"document","content_hash":"fc9b28dd72b239becdc6b27a9b539bb07b4a9620deee6483bc88a90779d79018","id":"aoa:aoa-xda-connector:artifact:93adeedb62ae4160af1d8713","lineage_path":"docs/INSTALL.md","mime":"text/markdown","path":"docs/INSTALL.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:9f015845e475af3c4ac379f7"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:f974d58f90ab37e6c6e168d1","artifact_kind":"document","content_hash":"7f2a4269f12262589ed6c7d4f02f65dfed5ee6d71727249b02f9e5cec7474c68","id":"aoa:aoa-xda-connector:artifact:7592ebe12e24b5f2c1b40033","lineage_path":"docs/MCP_ROLLOUT.md","mime":"text/markdown","path":"docs/MCP_ROLLOUT.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:278190da9dfcc04b239ad81a"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:0148c1a925e0465653a89aeb","artifact_kind":"document","content_hash":"0f6c6c59a344ab507aa04d7febeeb00ee68bb21627676bfeda7c3c7429d3bfd6","id":"aoa:aoa-xda-connector:artifact:dc059c6e179d84850bca916f","lineage_path":"docs/QUERY_MODEL.md","mime":"text/markdown","path":"docs/QUERY_MODEL.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:4c5fbc9ca4b46204e2d3206c"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:a9032f43e3585cf994cd72e3","artifact_kind":"document","content_hash":"1c3e2596c9bebefcbfe87af72c1f2f44705400f12d14d1ff9bc12a4faa87925d","id":"aoa:aoa-xda-connector:artifact:fa011f8c69f98428a5758cc9","lineage_path":"docs/RUNTIME_CONTRACT.md","mime":"text/markdown","path":"docs/RUNTIME_CONTRACT.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:7c2f17949a1475dfa02a9040"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:6e261814859d36446734fa4a","artifact_kind":"document","content_hash":"5cb57b38b1df0edf36af0d389af383af6f3bb035ca79d75275af92c9e2b1622e","id":"aoa:aoa-xda-connector:artifact:a06d166b7c2914561846ba0c","lineage_path":"docs/STARTER_PROOF.md","mime":"text/markdown","path":"docs/STARTER_PROOF.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:8053a94150eee9b394d1d099"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:f7f4d064508b3007c3dd4187","artifact_kind":"document","content_hash":"a51c208fabb3667c975a64db026aca3ff07d530b22e62f7b06996f37a953d654","id":"aoa:aoa-xda-connector:artifact:b56c503804e7ddd5502f628f","lineage_path":"docs/decisions/AOA-XDA-D-0001-second-source-connector-proof.md","mime":"text/markdown","path":"docs/decisions/AOA-XDA-D-0001-second-source-connector-proof.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:ea1f553836b3fee82332d9e2"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:b5fade513938efb7d29549e2","artifact_kind":"document","content_hash":"9799dc98e8ce7ec327a6dc407efe54bad926d3105bc471a4c3df61aeb613e752","id":"aoa:aoa-xda-connector:artifact:e5ec0e7030077b7cf1bfed98","lineage_path":"docs/decisions/README.md","mime":"text/markdown","path":"docs/decisions/README.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:62e8cbf64e79d100346404f6"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:05c9ed443ce6c9f8e7870b46","artifact_kind":"document","content_hash":"a56695743f726840cc3e95ba86f4b5948b01df7fa36531f9f50c053605c7f3ae","id":"aoa:aoa-xda-connector:artifact:97b1e9d3cdd5039f97903b28","lineage_path":"evals/AGENTS.md","mime":"text/markdown","path":"evals/AGENTS.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:c337157fbe467bef81ea4b44"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:4a1599f4c36c18c1e1913228","artifact_kind":"config","content_hash":"580769d8d758197b0e3b2b8152d2db29d5efd32f93b4ae44b8bccaa084c0ebd6","id":"aoa:aoa-xda-connector:artifact:b027c5aa6bfa309e504db8b6","lineage_path":"evals/PORT.yaml","mime":"application/yaml","path":"evals/PORT.yaml","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:4a7d1f4ab02ddcdab6eba6e5"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:e7e805aa7ab18b94aca3ab86","artifact_kind":"document","content_hash":"f27662a49bf58cf5fcbe84597502313cd335ca770bae80db998624068b533d09","id":"aoa:aoa-xda-connector:artifact:a1a9eeb43d4de7693b860e12","lineage_path":"evals/README.md","mime":"text/markdown","path":"evals/README.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:3dc6e198f09993fd18a5d2f5"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:06c0ec41c4c9f6560648b274","artifact_kind":"document","content_hash":"f9540523b031e203c04577189b865fad0af154f166033b14d37ecd61788c5f15","id":"aoa:aoa-xda-connector:artifact:d27b56ff431893151fb5396d","lineage_path":"evals/intake/README.md","mime":"text/markdown","path":"evals/intake/README.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:b0592aebe96c1536a33c33d2"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:064029bdd27976786936dd86","artifact_kind":"document","content_hash":"5d3b50090faa9e0031562b16769af6199800649bfe92dd376f815d2c7517f9cf","id":"aoa:aoa-xda-connector:artifact:ac5e016ca22d8a30850c20d8","lineage_path":"evals/reports/README.md","mime":"text/markdown","path":"evals/reports/README.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:27a924a7d9eadfcf0882249e"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:4a55f54476376fa7ac298a9b","artifact_kind":"document","content_hash":"50bb4f3d7ed7526562dd10046f0231efaa08e116c8bef539b46a6a43c8e50355","id":"aoa:aoa-xda-connector:artifact:8611332c6fcbad7921c5cd0c","lineage_path":"evals/suites/README.md","mime":"text/markdown","path":"evals/suites/README.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:86b55325ad1db78ef90ff3f7"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:b9faa751e4040973e152cfdb","artifact_kind":"document","content_hash":"aaaa9bb78de379400d5fa7b1872db1f41036195026880051c100310a2995671d","id":"aoa:aoa-xda-connector:artifact:b972eb11b6cc50b29dad6816","lineage_path":"evals/suites/connector-family-claim-runtime.suite.md","mime":"text/markdown","path":"evals/suites/connector-family-claim-runtime.suite.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:2642fff98fa88934fc97ac45"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:bc883d724e519989615a2f72","artifact_kind":"config","content_hash":"3f84fd71eebe1dd5ddc8db7d4174355fb9fdba107cd955225cd4a3e11f2d44e5","id":"aoa:aoa-xda-connector:artifact:0406674f038a13735575f3e1","lineage_path":"evals/suites/starter_claim_answer_packets.json","mime":"application/json","path":"evals/suites/starter_claim_answer_packets.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:c9d33150d711e5d496ef7a63"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:ecca254d37f2318a2401dd3e","artifact_kind":"config","content_hash":"e4d1437ba808a1c63781c876df24e783d6e73f8e75e968777d07943bf9e6954e","id":"aoa:aoa-xda-connector:artifact:3880ed3d49acdbd8c555ca89","lineage_path":"evals/suites/starter_claim_conflict_relations.json","mime":"application/json","path":"evals/suites/starter_claim_conflict_relations.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:7a8999c1f8be2517989b946c"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:1cc6f6d81a03a07f4b1e623e","artifact_kind":"document","content_hash":"ee74a24cf877e86ee7abdb1dc5f765e09269e870581831c3a143b5588f4a3768","id":"aoa:aoa-xda-connector:artifact:f80d68b85bc445f7b8bc4a73","lineage_path":"kag/AGENTS.md","mime":"text/markdown","path":"kag/AGENTS.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:7e4bd47bda7b82f4df2bf003"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:6113442e45a3a410879b6e39","artifact_kind":"document","content_hash":"e32e4d2b3677b1f8ad80c6b5de64cd1eba492211f506f71268824519acee5c47","id":"aoa:aoa-xda-connector:artifact:213631cc86c1c0c7bdb579f5","lineage_path":"kag/README.md","mime":"text/markdown","path":"kag/README.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:21e0844bf4ef460fb3322043"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:c752d2fae486c6550711f2a4","artifact_kind":"config","content_hash":"f0adfb89924226cf9c5ad6a12e849c99c8b866b941737b26b0e3e545d0e0e583","id":"aoa:aoa-xda-connector:artifact:8c12cb4c115b45c72311b213","lineage_path":"kag/edges/source_routes_to_storage_boundary.json","mime":"application/json","path":"kag/edges/source_routes_to_storage_boundary.json","provenance_ref":"deterministic","surface_state":"generated_readmodel","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:9c359d23fb4b742d01b246b1"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:ce1377de782873b64dd3b5a8","artifact_kind":"index","content_hash":"3719b0ae00c49859cc65e344df88fd87ca8f0464ba7e1375bd48f75aa35ea5e9","id":"aoa:aoa-xda-connector:artifact:1416e51205dd8339ed9f4b66","lineage_path":"kag/indexes/source_inventory.json","mime":"application/json","path":"kag/indexes/source_inventory.json","provenance_ref":"deterministic","surface_state":"generated_readmodel","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:2127032aabca1c8c6941d3da"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:e1d75e0b10f5aa9a783ba9a4","artifact_kind":"config","content_hash":"3b2215daa05faea51835a99620527d2324f7c8ff050a586bfe25f33e0d0a6720","id":"aoa:aoa-xda-connector:artifact:0d25d90d0812762fd5378e2f","lineage_path":"kag/manifest.json","mime":"application/json","path":"kag/manifest.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:175c271de0d045ecc5524493"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:04881388d349ebe291fdb7f4","artifact_kind":"config","content_hash":"08da09994c1439c7da0fd23cd7f699797402496b962bda59c22c63476b5d260d","id":"aoa:aoa-xda-connector:artifact:a87a1f114ca78cbfb08f3359","lineage_path":"kag/nodes/source_home.json","mime":"application/json","path":"kag/nodes/source_home.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:387f1953d14c4d3597ce6155"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:52c45a875bdec1716dafae2d","artifact_kind":"config","content_hash":"bf27feb4cfae9d12e0a456876eb2caaed8e05b44db60a173ec6e0bdf378e9533","id":"aoa:aoa-xda-connector:artifact:45dfb2e4b04a03b42e00e4c7","lineage_path":"kag/nodes/storage_boundary.json","mime":"application/json","path":"kag/nodes/storage_boundary.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:c23b644c8d23b4a5f8997a15"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:0d5ddca4814a05a15a1fe0be","artifact_kind":"projection","content_hash":"270ebc9de60bf9885784e3dea9687b79d9d99a3986e463c65d0d4954d7e594fc","id":"aoa:aoa-xda-connector:artifact:1a2a306538ed63040bdeab56","lineage_path":"kag/projections/source_return.json","mime":"application/json","path":"kag/projections/source_return.json","provenance_ref":"deterministic","surface_state":"generated_readmodel","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:de1ef95c32d3ec0d3c43b078"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:28d8cc589eb1f324f0d90a76","artifact_kind":"receipt","content_hash":"970c65e5bb56a3cce99a89bda7110d86370ed82406a63d0528c7a3ba260a4123","id":"aoa:aoa-xda-connector:artifact:8e616be0cdf2b775b3d0fcfd","lineage_path":"kag/receipts/validation_receipt.json","mime":"application/json","path":"kag/receipts/validation_receipt.json","provenance_ref":"deterministic","surface_state":"receipt","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:fe91084ef05a2b8270bd4c9e"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:cda34e7ad7ecd1467c381c0f","artifact_kind":"manifest","content_hash":"fe11365d68484fc2f17583af6200cbab781ee1a8c6682ae895da7c906bc5d91d","id":"aoa:aoa-xda-connector:artifact:50c86b7ed8ac2cf95bd48334","lineage_path":"pyproject.toml","mime":"application/toml","path":"pyproject.toml","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:3c93de0877aa5f50f05e8a72"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:2356a8a78188889ef1c38127","artifact_kind":"validator","content_hash":"7431cfd9ba5f6b3edbca29cc46e818085ae472a94a54aee736ce40e8db289280","id":"aoa:aoa-xda-connector:artifact:de39a4722143afd5fd9d1e43","lineage_path":"scripts/validate_connector.py","mime":"text/x-python","path":"scripts/validate_connector.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:7e7a590133603552a76be2c0"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:1f74765bd9684133a93f380c","artifact_kind":"source_code","content_hash":"1a8a292da8fd075ea11edfc33a66095b569436faf45c8ab0fd67e6123cee5fa9","id":"aoa:aoa-xda-connector:artifact:f2babbac5c22c6e19891cb44","lineage_path":"src/aoa_xda_connector/__init__.py","mime":"text/x-python","path":"src/aoa_xda_connector/__init__.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:01f446fa1b9b9244003bd91c"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:85a931e0aaeefd931062efb8","artifact_kind":"source_code","content_hash":"f0ee2e6fa755d505794889f12cc1c0dd241b24b200a3ba279cdbd9c6797f8a74","id":"aoa:aoa-xda-connector:artifact:5a67d4b21772f195a00dcc36","lineage_path":"src/aoa_xda_connector/answer/__init__.py","mime":"text/x-python","path":"src/aoa_xda_connector/answer/__init__.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:fe11bbaec2787e6c94c91ef7"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:e717c3a53715d19f142f7508","artifact_kind":"source_code","content_hash":"85fb7616e6265098bf7c38892f19336db14ebe4492ba05246e375971964f7f3a","id":"aoa:aoa-xda-connector:artifact:14e72d1c997bb8e6bf5c1966","lineage_path":"src/aoa_xda_connector/claims/__init__.py","mime":"text/x-python","path":"src/aoa_xda_connector/claims/__init__.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:4a6c3cfa48da70986000ad36"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:cbaf55c4ec77c9133bf34802","artifact_kind":"source_code","content_hash":"b5e2d9a407ffa8771f6bb249beaf60291c9157f57dde8257aafbd717e733653e","id":"aoa:aoa-xda-connector:artifact:713e0605d10db44514bc64cc","lineage_path":"src/aoa_xda_connector/cli.py","mime":"text/x-python","path":"src/aoa_xda_connector/cli.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:094320cac3fd8a6d67f7c35b"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:5824560f48a0228e5b75b4f1","artifact_kind":"source_code","content_hash":"d6fc272a67ebc916117089e2a8f5977d480428388bbd8937090e1681b77c1f8c","id":"aoa:aoa-xda-connector:artifact:3429119f7bce93fbf3709235","lineage_path":"src/aoa_xda_connector/config.py","mime":"text/x-python","path":"src/aoa_xda_connector/config.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:18a767e6bd6f0b7eb7e571ab"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:8cf02f8171f838eaba0f8504","artifact_kind":"source_code","content_hash":"6b0b13bc8ac72be25c21f1e991ab540950bcec9c791c97400b755e97a00364e8","id":"aoa:aoa-xda-connector:artifact:78efcf5d49e998a887e653b9","lineage_path":"src/aoa_xda_connector/evaluation/__init__.py","mime":"text/x-python","path":"src/aoa_xda_connector/evaluation/__init__.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:04779461ac570fd7debee3e7"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:cd2d8f4b7f88164d2b283014","artifact_kind":"source_code","content_hash":"a29ffd10a7074915530024dac1fb0cc3baea40ad3d3a9cc9f07a405f1ec35bad","id":"aoa:aoa-xda-connector:artifact:97ec2f4c2d93c9830f0774b9","lineage_path":"src/aoa_xda_connector/graph/__init__.py","mime":"text/x-python","path":"src/aoa_xda_connector/graph/__init__.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:45bbd4bb3dd4fe5b9414a151"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:87e3b0adc86bbcf9b9bac8c9","artifact_kind":"source_code","content_hash":"69367ddbceb364549f2c1020461baad1684df5414388245063ed84fb5f8527bf","id":"aoa:aoa-xda-connector:artifact:3f132fa50ad96ec3c03bfa33","lineage_path":"src/aoa_xda_connector/index/__init__.py","mime":"text/x-python","path":"src/aoa_xda_connector/index/__init__.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:545a69c9cd52448bc94a5430"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:7975513ceb01c384be85142d","artifact_kind":"source_code","content_hash":"da68f93c423adb3016414a844d984878ede8943e1d997ebd148b0dada84d2717","id":"aoa:aoa-xda-connector:artifact:ec606a94f0dbc4029b2e5501","lineage_path":"src/aoa_xda_connector/normalize/__init__.py","mime":"text/x-python","path":"src/aoa_xda_connector/normalize/__init__.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:d8a12c215cf9272135c82417"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:ea6faca4b1849b580c84bcc3","artifact_kind":"source_code","content_hash":"9f3ae0f6cbe8e89b48c73cae38d3401de1f2e5203a36f2182723ce1b324d5bca","id":"aoa:aoa-xda-connector:artifact:031f410572ab7832a77ba1c2","lineage_path":"src/aoa_xda_connector/parse/__init__.py","mime":"text/x-python","path":"src/aoa_xda_connector/parse/__init__.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:a96a4a869638a64f61f10ece"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:859774a504a5e03411fa171e","artifact_kind":"source_code","content_hash":"972283742f108d097233b5a2155bd8298c1eb3cdd35424e36e40dd74b23478ff","id":"aoa:aoa-xda-connector:artifact:968b3b3e15cfa4ab7f9b2f34","lineage_path":"src/aoa_xda_connector/policy/__init__.py","mime":"text/x-python","path":"src/aoa_xda_connector/policy/__init__.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:85e3f10d828df7ff67b74609"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:13127c398cd1158fef063d49","artifact_kind":"source_code","content_hash":"9e217dfeefd7c754c1fe4f1cc14aefd8aab4267ce590cd23b6ed2e633d98d21e","id":"aoa:aoa-xda-connector:artifact:9c465bdab58ac4eba0aede29","lineage_path":"src/aoa_xda_connector/policy/rules.py","mime":"text/x-python","path":"src/aoa_xda_connector/policy/rules.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:e0dcaaded923ea9d83553356"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:65731c41b52a458a6ed53b94","artifact_kind":"source_code","content_hash":"5577c378f1dad3d811bf11cd397fbbcc469dd98af8b77c5f612daacc382af995","id":"aoa:aoa-xda-connector:artifact:e5a13e38b37117d592ad75fa","lineage_path":"src/aoa_xda_connector/query/__init__.py","mime":"text/x-python","path":"src/aoa_xda_connector/query/__init__.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:863d931c1133318fd1913d4f"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:0897a08dc53f4de92480b04d","artifact_kind":"source_code","content_hash":"a3d6c14680765f37b50a7f0a9359f9225fbb7b0e01f11dc4a4a6ac530300bf1e","id":"aoa:aoa-xda-connector:artifact:0b6690cd88d7f1f26a809c6d","lineage_path":"src/aoa_xda_connector/sources/__init__.py","mime":"text/x-python","path":"src/aoa_xda_connector/sources/__init__.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:c5e3d01e0a7c5c842688d53e"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:8c8240bc1b6ca8d6da477201","artifact_kind":"source_code","content_hash":"aac14c22854510c716e8fc3626df5d7b6aad8f2ec928ca03763e16ea2b6da3d3","id":"aoa:aoa-xda-connector:artifact:95d7213abad52bc3fb1407a8","lineage_path":"src/aoa_xda_connector/storage/__init__.py","mime":"text/x-python","path":"src/aoa_xda_connector/storage/__init__.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:360bc1c0b747bce4e2ceab49"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:8faa76312881f4864e0180d8","artifact_kind":"test","content_hash":"d34f7e7045eb3eebc87833f287188d05acdd533e1ec2b0adc10b811b617e155f","id":"aoa:aoa-xda-connector:artifact:d2f4ffcf084f0e96fd5a6bd6","lineage_path":"tests/contract/test_validator.py","mime":"text/x-python","path":"tests/contract/test_validator.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:1d90a5c140ccbba74d413b1e"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:8e63812b27f79d0c8dcabb15","artifact_kind":"test","content_hash":"2936d07afa2d1e7d3d6a0fd060b6b9a759b37d550961048b23afbca5477df348","id":"aoa:aoa-xda-connector:artifact:72e7f3ce473796ceebe6b66f","lineage_path":"tests/integration/test_cli_eval.py","mime":"text/x-python","path":"tests/integration/test_cli_eval.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:04335417ca6ea031546975d9"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:c3a815a72cb55071672dedc5","artifact_kind":"test","content_hash":"2ac30419e49b6b59ddd5dca0bee39e56f1ef7db1a0152d099622b528042ccee6","id":"aoa:aoa-xda-connector:artifact:7bd472ece7c3b8c73188c47d","lineage_path":"tests/unit/test_graph_answer.py","mime":"text/x-python","path":"tests/unit/test_graph_answer.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:76932f712c401b53a2769fef"},
+    {"anchor_id":"aoa:aoa-xda-connector:anchor:d1eee446cd8a4262bc32015e","artifact_kind":"test","content_hash":"90fd5e2e88d0dc35c545c3b3c6ab68c8249c821cbcd25945bddbc0a1e8d45a64","id":"aoa:aoa-xda-connector:artifact:4f69da0d97fe1b7c3f444716","lineage_path":"tests/unit/test_parse_normalize_policy.py","mime":"text/x-python","path":"tests/unit/test_parse_normalize_policy.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-xda-connector:artifact-version:d6542e831ac45d344db73496"}
   ],
   "index_identity": {
     "artifact_kind": "repository_artifact_index",
-    "content_digest": "a2a628ddafb6c599d44048dc69c62e486d9d4c85488b078fa98b98fa536542b5",
+    "content_digest": "091b3cb7d3e0d6498cc4d5724361a225164e11bdce789282464ba49925fc4205",
     "index_kind": "artifact",
     "local_id": "index:repo-local:artifacts",
     "schema_ref": "aoa-kag:schemas/repo-local-kag-repository-index.schema.json"
   },
+  "profiles": {
+    "extractors": {
+      "aoa-repo-local-kag@2": {
+        "name": "aoa-repo-local-kag",
+        "version": "2"
+      }
+    },
+    "parsers": {},
+    "provenance": {
+      "declared": {
+        "extractor_ref": "aoa-repo-local-kag@2",
+        "mode": "declared"
+      },
+      "deterministic": {
+        "extractor_ref": "aoa-repo-local-kag@2",
+        "mode": "deterministic"
+      },
+      "inferred": {
+        "extractor_ref": "aoa-repo-local-kag@2",
+        "mode": "inferred"
+      },
+      "observed": {
+        "extractor_ref": "aoa-repo-local-kag@2",
+        "mode": "observed"
+      }
+    },
+    "temporal": {
+      "current": {
+        "state": "current",
+        "valid_from": "",
+        "valid_to": ""
+      },
+      "historical": {
+        "state": "historical",
+        "valid_from": "",
+        "valid_to": ""
+      }
+    },
+    "trust": {
+      "declared": {
+        "class": "declared",
+        "confidence": 0.75
+      },
+      "deterministic": {
+        "class": "deterministic",
+        "confidence": 1.0
+      },
+      "inferred": {
+        "class": "inferred",
+        "confidence": 0.5
+      },
+      "observed": {
+        "class": "observed",
+        "confidence": 1.0
+      }
+    }
+  },
   "registry_output": {
-    "consumer": "aoa-kag-mcp",
+    "consumer": "aoa-kag",
     "resource_shape": "repo-local-artifact-index",
     "stable_fields": [
       "id",
+      "version_id",
       "artifact_kind",
-      "source_record_id",
+      "anchor_id",
       "path",
-      "content_hash"
+      "content_hash",
+      "provenance_ref",
+      "temporal_ref",
+      "trust_ref"
     ]
   },
   "repo": {
     "git_ref": "git-index-source-tree",
     "name": "aoa-xda-connector",
+    "namespace": "aoa:aoa-xda-connector",
     "owner_type": "connector",
     "root": "."
   },
-  "schema_version": "aoa-repo-local-kag-repository-index-v1",
+  "schema_version": "aoa-repo-local-kag-repository-index-v2",
   "source_index": {
-    "content_digest": "7706cfc77a69499dd74c5307760f680f7ce759151b2e9ff61d3268402c7beb33",
+    "content_digest": "758844b693cfd475ec1c10dfee95b54848a494d79312f111f9d26ae0e9bb5414",
     "local_id": "index:repo-local:source-surfaces",
     "path": "kag/indexes/source_surface_index.json"
   },
