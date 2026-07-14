@@ -6,6 +6,8 @@
   fixture.
 - Keep XDA parser and extractor source-specific while preserving the shared
   claim/report vocabulary.
+- Measure reference claim traceability from the normalized starter population
+  without turning the measurement into a claim or eval verdict.
 
 ## Next
 

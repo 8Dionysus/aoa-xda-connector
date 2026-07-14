@@ -42,6 +42,15 @@ The following concepts are source/profile-specific:
 - Pixel 8 Pro / husky starter profile
 - fixture shape and seed choices
 
+## Statistical Port
+
+`stats/` compares the normalized starter topic's actionable entity occurrences
+with source-traceable claims in the graph export. The normalizer owns the
+reference population, claim extraction and graph construction own
+materialization and source relations, and the packet retains only aggregate
+counts and portable provenance. It does not consume the local eval verdict or
+score cross-claim semantics.
+
 ## No Premature Shared Repo
 
 The portable doctrine is duplicated locally in connector repos for now. A

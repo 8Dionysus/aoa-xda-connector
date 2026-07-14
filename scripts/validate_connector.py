@@ -4,8 +4,25 @@
 from __future__ import annotations
 
 import json
+import re
 import sys
 from pathlib import Path
+
+
+COMMAND_FENCE_LANGUAGES = {
+    "bash",
+    "sh",
+    "shell",
+    "console",
+    "terminal",
+    "powershell",
+    "cmd",
+}
+COMMAND_LINE_RE = re.compile(
+    r"^\s*(?:\$\s+|[A-Z][A-Z0-9_]*=|python(?:3)?\s+|pytest(?:\s|$)|"
+    r"aoa-xda(?:\s|$)|pip(?:3)?\s+|uv\s+|git\s+|export\s+)",
+    re.IGNORECASE,
+)
 
 
 REQUIRED_FILES = [
@@ -55,6 +72,11 @@ REQUIRED_FILES = [
     "kag/indexes/source_surface_index.json",
     "kag/projections/source_return.json",
     "kag/receipts/validation_receipt.json",
+    "scripts/validate_local_stats_port.py",
+    "stats/AGENTS.md",
+    "stats/README.md",
+    "stats/port.manifest.json",
+    "stats/packets/starter-actionable-entity-claim-traceability-ratio.reference.json",
     "src/aoa_xda_connector/cli.py",
 ]
 
@@ -83,6 +105,8 @@ REQUIRED_DIRS = [
     "kag/indexes",
     "kag/projections",
     "kag/receipts",
+    "stats",
+    "stats/packets",
 ]
 
 REQUIRED_SCHEMAS = [
@@ -133,6 +157,7 @@ REQUIRED_GITIGNORE = [
 
 FORBIDDEN_HEAVY_ROOTS = {"data", "cache", "artifacts", "raw", "indexes", "vectors", "graphs", "exports"}
 IGNORED_LOCAL_CACHE_DIR_NAMES = {"__pycache__", ".pytest_cache", ".mypy_cache", ".ruff_cache", ".venv"}
+IGNORED_REPO_SCAN_ROOTS = {".connector-state", ".deps"}
 ALLOWED_KAG_RECORD_DIRS = {("kag", "indexes")}
 
 
@@ -171,6 +196,7 @@ def main() -> int:
         *repo_root.glob("connector/fixtures/**/*.json"),
         *repo_root.glob("evals/suites/**/*.json"),
         *repo_root.glob("kag/**/*.json"),
+        *repo_root.glob("stats/**/*.json"),
     ]:
         _load_json(path, errors)
 
@@ -187,9 +213,7 @@ def main() -> int:
         if ".git" in path.parts:
             continue
         rel_parts = path.relative_to(repo_root).parts
-        if any(part in IGNORED_LOCAL_CACHE_DIR_NAMES for part in rel_parts):
-            continue
-        if rel_parts and rel_parts[0] == ".connector-state":
+        if _is_ignored_repo_scan_path(rel_parts):
             continue
         if _is_allowed_kag_record_path(path, rel_parts):
             continue
@@ -198,6 +222,7 @@ def main() -> int:
 
     _check_text(repo_root, errors, warnings)
     _check_eval_port(repo_root, errors)
+    _check_markdown_command_hygiene(repo_root, errors)
 
     payload = {
         "schema": "aoa_xda_connector_validation_v1",
@@ -220,6 +245,53 @@ def _load_json(path: Path, errors: list[str]) -> None:
         json.loads(path.read_text(encoding="utf-8"))
     except json.JSONDecodeError as exc:
         errors.append(f"invalid json {path}: {exc}")
+
+
+def _is_ignored_repo_scan_path(rel_parts: tuple[str, ...]) -> bool:
+    return (
+        bool(rel_parts and rel_parts[0] in IGNORED_REPO_SCAN_ROOTS)
+        or any(part in IGNORED_LOCAL_CACHE_DIR_NAMES for part in rel_parts)
+    )
+
+
+def _check_markdown_command_hygiene(repo_root: Path, errors: list[str]) -> None:
+    """Keep executable command blocks in their owners or an applicable AGENTS route."""
+
+    for path in sorted(repo_root.rglob("*.md")):
+        if path.name == "AGENTS.md" or ".git" in path.parts or ".deps" in path.parts:
+            continue
+        relative = path.relative_to(repo_root)
+        fence_marker = ""
+        fence_language = ""
+        fence_start = 0
+        body: list[str] = []
+        for line_number, line in enumerate(
+            path.read_text(encoding="utf-8").splitlines(),
+            start=1,
+        ):
+            stripped = line.lstrip()
+            if not fence_marker:
+                if stripped.startswith("```") or stripped.startswith("~~~"):
+                    fence_marker = stripped[:3]
+                    language = stripped[3:].strip().casefold()
+                    fence_language = language.split(maxsplit=1)[0] if language else ""
+                    fence_start = line_number
+                    body = []
+                continue
+            if stripped.startswith(fence_marker):
+                command_block = fence_language in COMMAND_FENCE_LANGUAGES or any(
+                    COMMAND_LINE_RE.match(item) for item in body
+                )
+                if command_block:
+                    errors.append(f"command block outside AGENTS.md: {relative}:{fence_start}")
+                fence_marker = ""
+                fence_language = ""
+                fence_start = 0
+                body = []
+            else:
+                body.append(line)
+        if fence_marker:
+            errors.append(f"unterminated Markdown fence: {relative}:{fence_start}")
 
 
 def _check_text(repo_root: Path, errors: list[str], warnings: list[str]) -> None:

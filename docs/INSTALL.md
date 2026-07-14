@@ -2,36 +2,18 @@
 
 ## Fresh Clone
 
-```bash
-python -m venv .venv
-. .venv/bin/activate
-python -m pip install -e ".[dev]"
-python scripts/validate_connector.py
-python -m pytest -q
-```
+Package metadata and development extras are defined by `pyproject.toml`.
+Follow the bounded operator route in the root `AGENTS.md`; repository
+validation belongs to `scripts/validate_connector.py` and the CI workflow.
 
 ## No-Network Starter Proof
 
-```bash
-aoa-xda doctor
-aoa-xda materialize fixture
-aoa-xda build-index --run starter-fixture
-aoa-xda build-graph --run starter-fixture
-aoa-xda answer "Pixel 8 Pro husky Magisk init_boot current warning after OTA" --run starter-fixture
-aoa-xda eval claim-relations
-aoa-xda eval answer-packets
-```
+The CLI-owned fixture route materializes, indexes, graphs, queries, answers,
+and evaluates the canonical public starter topic without network access.
 
 ## External Storage
 
-For larger local runs:
-
-```bash
-export CONNECTOR_FAMILY_ROOT=/path/to/connector-databases
-export CONNECTOR_INSTANCE_ROOT="$CONNECTOR_FAMILY_ROOT/aoa-xda-connector"
-export CONNECTOR_DATA_ROOT="$CONNECTOR_INSTANCE_ROOT/data"
-export CONNECTOR_CACHE_ROOT="$CONNECTOR_INSTANCE_ROOT/cache"
-export CONNECTOR_ARTIFACT_ROOT="$CONNECTOR_INSTANCE_ROOT/artifacts"
-```
+For larger local runs, configure the storage variables declared by
+`.env.example` and `connector/STORAGE_POLICY.md`.
 
 Do not commit generated state from those roots.

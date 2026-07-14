@@ -21,6 +21,14 @@
 - Runtime MCP service ownership; that belongs in `abyss-stack`.
 - Central eval verdicts; that belongs in `aoa-evals`.
 
+## Statistical Boundary
+
+The root `stats/` port may derive public, reference-only measurements from the
+canonical fixture pipeline. It does not own parser or entity completeness,
+claim truth, conflict or freshness interpretation, answer quality, eval
+verdicts, live-source coverage, connector readiness, or runtime state. Shared
+measurement grammar remains with `aoa-stats`.
+
 ## Public Repo Rule
 
 The repo may include method, code, schemas, docs, small fixtures, and small

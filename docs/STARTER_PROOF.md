@@ -21,3 +21,9 @@ It does not prove:
 - attachment handling
 - private/account route support
 - completeness for Pixel 8 Pro
+
+The root `stats/` port records the narrower reference observation that all ten
+normalized actionable entity occurrences in this fixture are represented by
+source-traceable graph claims. This is structural traceability, not a claim of
+parser completeness, semantic correctness, relation quality, eval success, or
+live XDA coverage.

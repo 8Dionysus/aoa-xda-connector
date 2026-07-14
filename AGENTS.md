@@ -6,7 +6,7 @@ Root route card for `aoa-xda-connector`.
 
 `aoa-xda-connector` is an AoA external-source connector skeleton for building
 local, policy-gated search, graph, and claim evidence from public XDA forum
-thread/post pages.
+thread/post pages, plus bounded owner-local statistics over that evidence.
 
 The repository is GitHub-publishable method and code. It is not a corpus dump.
 
@@ -18,6 +18,8 @@ This repository owns:
 - XDA public thread parser, normalizer, claim extractor, index, graph, answer
   packet, and local eval skeletons
 - small synthetic fixtures and bounded starter profile routes
+- owner-local statistical questions over normalized XDA and claim-graph
+  evidence
 - connector-local validation and install route docs
 
 It does not own:
@@ -29,6 +31,8 @@ It does not own:
 - full raw captures, large indexes, graph databases, embeddings, or caches
 - runtime/MCP deployment, which belongs in `abyss-stack`
 - central eval verdicts or proof doctrine, which belong in `aoa-evals`
+- shared statistical grammar or cross-owner composition, which belong in
+  `aoa-stats`
 
 ## Start Here
 
@@ -41,6 +45,7 @@ It does not own:
 7. `docs/RUNTIME_CONTRACT.md`
 8. `docs/AGENT_INSTALL_ROUTE.md`
 9. `docs/decisions/README.md`
+10. `stats/README.md` for owner-local statistical questions
 
 Before large data, runtime, AI, or benchmark work, also read
 `/etc/abyss-machine/AGENTS.md` and `/etc/abyss-machine/storage-policy.json`.
@@ -73,7 +78,12 @@ PYTHONPATH=src python -m aoa_xda_connector.cli build-graph --run starter-fixture
 PYTHONPATH=src python -m aoa_xda_connector.cli eval claim-relations
 PYTHONPATH=src python -m aoa_xda_connector.cli eval answer-packets
 python /srv/AbyssOS/aoa-evals/scripts/validate_local_eval_port.py --target-root . --json
+AOA_STATS_ROOT=/path/to/aoa-stats python scripts/validate_local_stats_port.py
 ```
+
+The CI workflow owns the exhaustive repository route. Ordinary Markdown
+explains behavior and links to executable owners rather than duplicating
+command catalogs.
 
 ## Closeout
 
