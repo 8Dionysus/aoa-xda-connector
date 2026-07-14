@@ -17,3 +17,4 @@ small proof database, and later expand through bounded public seeds.
 - evidence chains with source URLs, post IDs, and claim IDs
 - local eval suites before live expansion
 - heavy generated data excluded from Git
+- bounded owner-local statistics that preserve source and claim authority

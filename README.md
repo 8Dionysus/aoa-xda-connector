@@ -29,20 +29,10 @@ indexes, vector stores, or graph databases.
 
 ## Safe Quickstart
 
-```bash
-python -m venv .venv
-. .venv/bin/activate
-python -m pip install -e ".[dev]"
-python scripts/validate_connector.py
-python -m pytest -q
-aoa-xda doctor
-aoa-xda materialize fixture
-aoa-xda build-index --run starter-fixture
-aoa-xda build-graph --run starter-fixture
-aoa-xda answer "Pixel 8 Pro husky Magisk init_boot current warning after OTA" --run starter-fixture
-aoa-xda eval claim-relations
-aoa-xda eval answer-packets
-```
+The bounded operator route is owned by `AGENTS.md`; exact behavior and syntax
+remain with the CLI parser, validator, tests, and CI workflow. The default
+route materializes only the tiny sanitized starter fixture and does not touch
+the network.
 
 The default skeleton does not crawl XDA. It materializes a tiny sanitized XDA
 thread fixture for no-network proof work.
@@ -58,15 +48,8 @@ repo-local storage:
 .connector-state/artifacts
 ```
 
-For larger local runs, route generated state outside Git:
-
-```bash
-export CONNECTOR_FAMILY_ROOT=/path/to/connector-databases
-export CONNECTOR_INSTANCE_ROOT="$CONNECTOR_FAMILY_ROOT/aoa-xda-connector"
-export CONNECTOR_DATA_ROOT="$CONNECTOR_INSTANCE_ROOT/data"
-export CONNECTOR_CACHE_ROOT="$CONNECTOR_INSTANCE_ROOT/cache"
-export CONNECTOR_ARTIFACT_ROOT="$CONNECTOR_INSTANCE_ROOT/artifacts"
-```
+For larger local runs, route generated state outside Git through the storage
+variables declared in `.env.example` and `connector/STORAGE_POLICY.md`.
 
 ## Starter Profile
 
@@ -93,6 +76,15 @@ Instead it builds local search from allowed public snapshots:
 public thread pages -> normalized posts -> keyword index -> claim graph
 -> evidence packets -> answer packets with source URLs, post IDs, and claim IDs
 ```
+
+## Local Statistics
+
+The root `stats/` port asks what fraction of normalized actionable entity
+occurrences in the public starter topic become source-traceable graph claims.
+The reference observation is `10 / 10` across root actions, recovery actions,
+warnings, and status updates. It reports only structural traceability; parser
+completeness, claim truth, cross-claim relation quality, eval verdicts, and
+live-source state remain with their owners.
 
 ## Current Status
 

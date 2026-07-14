@@ -1,0 +1,124 @@
+{
+  "schema_version": "aoa_stats_local_port_v1",
+  "contract_version": "1.0.0",
+  "owner_repo": "aoa-xda-connector",
+  "status": "active",
+  "owner_boundary_ref": "BOUNDARIES.md",
+  "central_contract_refs": [
+    "aoa-stats:stats/measurement-contract/measurement-contract.schema.json",
+    "aoa-stats:stats/measurement-contract/measurement-packet.schema.json"
+  ],
+  "evidence_posture": {
+    "live_state": "reference_only",
+    "privacy": "public",
+    "raw_content_allowed": false
+  },
+  "questions": [
+    {
+      "id": "question:starter-actionable-entity-claim-traceability-ratio",
+      "question": "What fraction of normalized actionable entity occurrences in the canonical public XDA starter topic are materialized as graph claims with matching source identity and the required direct source-to-claim relation?",
+      "consumer_refs": [
+        "stats/README.md",
+        "docs/STARTER_PROOF.md",
+        "docs/ARCHITECTURE.md"
+      ]
+    }
+  ],
+  "measurements": [
+    {
+      "schema_version": "aoa_stats_measurement_contract_v1",
+      "measurement_id": "aoa-xda-connector/starter-actionable-entity-claim-traceability-ratio",
+      "contract_version": "1.0.0",
+      "owner_repo": "aoa-xda-connector",
+      "question_ref": "question:starter-actionable-entity-claim-traceability-ratio",
+      "semantic_class": "statistic",
+      "statistic": "ratio",
+      "object_kind": "normalized-actionable-entity-occurrence",
+      "unit": {
+        "symbol": "1",
+        "quantity": "proportion"
+      },
+      "population": {
+        "subject": "root action, recovery action, warning, and status entity occurrences in the canonical public normalized XDA starter topic",
+        "definition": "one unique post identity, actionable entity kind, and non-empty entity value tuple emitted by the normalizer for root_action, recovery_action, warning, or status",
+        "inclusion_rule": "every valid unique actionable entity occurrence in the complete canonical public normalized starter topic",
+        "exclusion_rule": "post text, authors, post and claim identities, source URLs, non-actionable entities, graph edges, cross-claim semantics, answers, eval outcomes, live XDA content, connector readiness, proof, and runtime state",
+        "sampling": "census"
+      },
+      "window": {
+        "temporality": "instant",
+        "clock": "owner_defined"
+      },
+      "dimensions": {
+        "allowed": [
+          {
+            "name": "actionable_entity_kind",
+            "max_cardinality": 4,
+            "sensitivity": "public"
+          }
+        ],
+        "prohibited": [
+          "post_id",
+          "thread_id",
+          "source_url",
+          "entity_value",
+          "claim_id",
+          "run_id"
+        ]
+      },
+      "aggregation": {
+        "operator": "ratio_of_sums",
+        "across": [
+          "dimension"
+        ]
+      },
+      "missingness": {
+        "states": [
+          "missing",
+          "unknown",
+          "stale"
+        ],
+        "zero_is_observation": true
+      },
+      "uncertainty": {
+        "required": false,
+        "methods": [
+          "not_applicable"
+        ]
+      },
+      "provenance": {
+        "evidence_refs_required": true,
+        "source_revision_required": true
+      },
+      "lifecycle": {
+        "status": "active",
+        "compatible_with": []
+      },
+      "privacy": {
+        "classification": "public",
+        "raw_content_allowed": false,
+        "sensitive_dimensions_allowed": false
+      },
+      "live_state": {
+        "capability": "reference_only"
+      },
+      "authority_ceiling": "Reports only the fraction of normalized root action, recovery action, warning, and status occurrences in the canonical public starter topic that the current claim graph materializes with matching source identity and a direct source relation at one source revision; it does not establish parser or entity completeness, claim truth, cross-claim relation quality, answer quality, live-source coverage, connector readiness, eval success, proof verdicts, or runtime health."
+    }
+  ],
+  "exports": [
+    {
+      "measurement_id": "aoa-xda-connector/starter-actionable-entity-claim-traceability-ratio",
+      "posture": "reference",
+      "packet_refs": [
+        "stats/packets/starter-actionable-entity-claim-traceability-ratio.reference.json"
+      ],
+      "evidence_refs": [
+        "connector/fixtures/html/xda_pixel_8_pro_husky_root_thread.html",
+        "src/aoa_xda_connector/normalize/__init__.py",
+        "src/aoa_xda_connector/claims/__init__.py",
+        "src/aoa_xda_connector/graph/__init__.py",
+        "connector/SOURCE_POLICY.md"
+      ]
+    }
+  ]
+}
