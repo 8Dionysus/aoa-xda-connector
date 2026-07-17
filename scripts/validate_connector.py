@@ -69,7 +69,7 @@ REQUIRED_FILES = [
     "kag/nodes/storage_boundary.json",
     "kag/edges/source_routes_to_storage_boundary.json",
     "kag/indexes/source_inventory.json",
-    "kag/indexes/source_surface_index.json",
+    "kag/indexes/index_family.manifest.json",
     "kag/projections/source_return.json",
     "kag/receipts/validation_receipt.json",
     "scripts/validate_local_stats_port.py",
@@ -148,6 +148,11 @@ REQUIRED_GITIGNORE = [
     "vectors/",
     "graphs/",
     "exports/full/",
+    "!kag/indexes/",
+    "!kag/indexes/*.json",
+    "!kag/indexes/shards/",
+    "!kag/indexes/shards/**/",
+    "!kag/indexes/shards/**/*.jsonl",
     "*.sqlite",
     "*.sqlite3",
     "*.parquet",
@@ -164,6 +169,8 @@ ALLOWED_KAG_RECORD_DIRS = {("kag", "indexes")}
 def _is_allowed_kag_record_path(path: Path, rel_parts: tuple[str, ...]) -> bool:
     if len(rel_parts) == 2 and tuple(rel_parts) in ALLOWED_KAG_RECORD_DIRS:
         return True
+    if tuple(rel_parts[:3]) == ("kag", "indexes", "shards"):
+        return path.is_dir() or (path.is_file() and path.suffix == ".jsonl")
     return (
         len(rel_parts) == 3
         and tuple(rel_parts[:2]) in ALLOWED_KAG_RECORD_DIRS
