@@ -21,6 +21,9 @@ graphs/
 exports/full/
 !kag/indexes/
 !kag/indexes/*.json
+!kag/indexes/shards/
+!kag/indexes/shards/**/
+!kag/indexes/shards/**/*.jsonl
 *.sqlite
 *.sqlite3
 *.parquet
